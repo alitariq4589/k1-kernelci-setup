@@ -1,0 +1,521 @@
+Try to boot from NFS ...
+[10821.855] Loading kernel from NFS...
+[10821.862] Using ethernet@cac80000 device
+[10821.863] File transfer via NFS from server 192.168.2.2; our IP address is 192.168.2.5
+Filename '/nfsroot/bootfs/uImage-bianbu'.
+Load address: 0x11000000
+Loading: #################################################################
+         #################################################################
+         #################################################################
+         #################
+done
+Bytes transferred = 34587200 (20fc240 hex)
+[10823.481] Loading dtb from NFS...
+[10823.484] Using ethernet@cac80000 device
+[10823.488] File transfer via NFS from server 192.168.2.2; our IP address is 192.168.2.5
+Filename '/nfsroot/bootfs/spacemit/6.6.36/k1-x_deb1_cloud_v.dts'.
+Load address: 0x31000000
+Loading: *** ERROR: File lookup fail
+
+done
+ethernet@cac80000 Waiting for PHY auto negotiation to complete...... done
+[10827.356] emac_adjust_link link:1 speed:1000 duplex:full
+[10827.378] Using ethernet@cac80000 device
+[10827.379] File transfer via NFS from server 192.168.2.2; our IP address is 192.168.2.5
+Filename '/nfsroot/bootfs/initrd.img-6.6.36'.
+Load address: 0x21000000
+Loading: #################################################################
+         ######################T T T 
+done
+Bytes transferred = 14231700 (d92894 hex)
+[10843.595] / {
+[10843.596]     compatible = "spacemit,k1-x";
+[10843.600]     #address-cells = <0x00000002>;
+[10843.604]     #size-cells = <0x00000002>;
+[10843.608]     model = "spacemit k1-x deb1 board";
+[10843.612]     modules_usrload = "8852bs";
+[10843.616]     aliases {
+[10843.618]     };
+[10843.619]     cpus {
+[10843.621]     };
+[10843.622]     clocks {
+[10843.624]     };
+[10843.626]     reserved-memory {
+[10843.629]     };
+[10843.630]     soc {
+[10843.633]     };
+[10843.633]     pmu {
+[10843.635]     };
+[10843.637]     spacemit_snd_dma_hdmi {
+[10843.640]     };
+[10843.641]     dummy_codec {
+[10843.644]     };
+[10843.645]     i2s0@d4026000 {
+[10843.648]     };
+[10843.649]     i2s1@d4026800 {
+[10843.652]     };
+[10843.653]     spacemit-snd-dma0 {
+[10843.656]     };
+[10843.658]     spacemit-snd-dma1 {
+[10843.661]     };
+[10843.662]     snd-card@0 {
+[10843.665]     };
+[10843.666]     snd-card@1 {
+[10843.668]     };
+[10843.670]     lcds {
+[10843.672]     };
+[10843.673]     memory@0 {
+[10843.675]     };
+[10843.677]     memory@100000000 {
+[10843.680]     };
+[10843.681]     chosen {
+[10843.683]     };
+[10843.685]     dc-12v {
+[10843.687]     };
+[10843.688]     vcc4v0-baseboard {
+[10843.691]     };
+[10843.692]     rf-pwrseq {
+[10843.695]     };
+[10843.696]     leds {
+[10843.698]     };
+[10843.700]     pwm-fan {
+[10843.702]     };
+[10843.703] };
+[10843.704] ## Booting kernel from Legacy Image at 11000000 ...
+[10843.710]    Image Name:   Linux Kernel
+[10843.714]    Image Type:   RISC-V Linux Kernel Image (uncompressed)
+[10843.720]    Data Size:    34587136 Bytes = 33 MiB
+[10843.725]    Load Address: 00200000
+[10843.728]    Entry Point:  00200000
+   Verifying Checksum ... OK
+[10843.888] ## Flattened Device Tree blob at 31000000
+[10843.890]    Booting using the fdt blob at 0x31000000
+[10843.895]    Loading Kernel Image
+[10843.926]    Using Device Tree in place at 0000000031000000, end 0000000031018167
+[10843.948] 
+Starting kernel ...
+
+[    0.000000] Linux version 6.6.63+ (user1@phantom-machine) (riscv64-unknown-linux-gnu-gcc () 13.2.0, GNU ld (GNU Binutils) 2.43.1) #1 SMP PREEMPT Sat Mar 22 17:41:42 PKT 2025
+[    0.000000] Machine model: spacemit k1-x deb1 board
+[    0.000000] SBI specification v1.0 detected
+[    0.000000] SBI implementation ID=0x1 Version=0x10003
+[    0.000000] SBI IPI extension detected
+[    0.000000] SBI RFENCE extension detected
+[    0.000000] earlycon: sbi0 at I/O port 0x0 (options '')
+[    0.000000] printk: bootconsole [sbi0] enabled
+[    0.000000] efi: UEFI not found.
+[    0.000000] Reserved memory: created CMA memory pool at 0x0000000067000000, size 384 MiB
+[    0.000000] OF: reserved mem: initialized node linux,cma, compatible id shared-dma-pool
+[    0.000000] OF: reserved mem: 0x0000000067000000..0x000000007effffff (393216 KiB) map reusable linux,cma
+[    0.000000] OF: reserved mem: 0x0000000000000000..0x000000000007ffff (512 KiB) nomap non-reusable mmode_resv0@0
+[    0.000000] Reserved memory: created DMA memory pool at 0x000000002ff40000, size 0 MiB
+[    0.000000] OF: reserved mem: initialized node dpu_reserved@2ff40000, compatible id shared-dma-pool
+[    0.000000] OF: reserved mem: 0x000000002ff40000..0x000000002fffffff (768 KiB) nomap non-reusable dpu_reserved@2ff40000
+[    0.000000] OF: reserved mem: 0x0000000030000000..0x00000000301fffff (2048 KiB) nomap non-reusable mem@30000000
+[    0.000000] OF: reserved mem: 0x0000000030200000..0x0000000030202fff (12 KiB) nomap non-reusable vdev0vring0@30200000
+[    0.000000] OF: reserved mem: 0x0000000030203000..0x0000000030205fff (12 KiB) nomap non-reusable vdev0vring1@30203000
+[    0.000000] Reserved memory: created DMA memory pool at 0x0000000030206000, size 0 MiB
+[    0.000000] OF: reserved mem: initialized node vdev0buffer@30206000, compatible id shared-dma-pool
+[    0.000000] OF: reserved mem: 0x0000000030206000..0x00000000302fbfff (984 KiB) nomap non-reusable vdev0buffer@30206000
+[    0.000000] OF: reserved mem: 0x00000000302fc000..0x00000000302fffff (16 KiB) nomap non-reusable rsc_table@302fc000
+[    0.000000] OF: reserved mem: 0x0000000030300000..0x000000003033ffff (256 KiB) nomap non-reusable rcpu_mem_snapshots@30300000
+[    0.000000] OF: reserved mem: 0x000000007f000000..0x000000007fffffff (16384 KiB) map non-reusable framebuffer@7f000000
+[    0.000000] OF: reserved mem: 0x0000000080000000..0x00000000c07fffff (1056768 KiB) nomap non-reusable area_reserved@80000000
+[    0.000000] OF: reserved mem: 0x00000000c0800000..0x00000000c083ffff (256 KiB) nomap non-reusable mem@c0800000
+[    0.000000] OF: reserved mem: 0x00000000c0840000..0x00000000ffffffff (1040128 KiB) nomap non-reusable area_reserved@c0840000
+[    0.000000] Zone ranges:
+[    0.000000]   DMA32    [mem 0x0000000000000000-0x000000007fffffff]
+[    0.000000]   Normal   [mem 0x0000000080000000-0x000000047fffffff]
+[    0.000000] Movable zone start for each node
+[    0.000000] Early memory node ranges
+[    0.000000]   node   0: [mem 0x0000000000000000-0x000000000007ffff]
+[    0.000000]   node   0: [mem 0x0000000000080000-0x000000002ff3ffff]
+[    0.000000]   node   0: [mem 0x000000002ff40000-0x000000003033ffff]
+[    0.000000]   node   0: [mem 0x0000000030340000-0x000000007fffffff]
+[    0.000000]   node   0: [mem 0x0000000100000000-0x000000047fffffff]
+[    0.000000] Initmem setup node 0 [mem 0x0000000000000000-0x000000047fffffff]
+[    0.000000] On node 0, zone Normal: 524288 pages in unavailable ranges
+[    0.000000] SBI HSM extension detected
+[    0.000000] riscv: base ISA extensions acdfimv
+[    0.000000] riscv: ELF capabilities acdfimv
+[    0.000000] percpu: Embedded 29 pages/cpu s80872 r8192 d29720 u118784
+[    0.000000] pcpu-alloc: s80872 r8192 d29720 u118784 alloc=29*4096
+[    0.000000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 [0] 4 [0] 5 [0] 6 [0] 7 
+[    0.000000] Kernel command line: earlyprintk quiet splash plymouth.ignore-serial-consoles plymouth.prefer-fbcon clk_ignore_unused swiotlb=65536 workqueue.default_affinity_scope=system root=/dev/nfs nfsroot=192.168.2.2:/nfsroot/rootfs, ip=eth0:dhcp,nolink noipath earlycon=sbi console=ttyS0,115200n8 loglevel=8 rdint
+[    0.000000] Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+[    0.000000] Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 4120576
+[    0.000000] mem auto-init: stack:off, heap alloc:off, heap free:off
+[    0.000000] software IO TLB: area num 8.
+[    0.000000] software IO TLB: mapped [mem 0x000000005f000000-0x0000000067000000] (128MB)
+[    0.000000] Memory: 15874528K/16777216K available (16076K kernel code, 6893K rwdata, 8192K rodata, 2307K init, 586K bss, 509472K reserved, 393216K cma-reserved)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=8, Nodes=1
+[    0.000000] 
+[    0.000000] **********************************************************
+[    0.000000] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    0.000000] **                                                      **
+[    0.000000] ** trace_printk() being used. Allocating extra memory.  **
+[    0.000000] **                                                      **
+[    0.000000] ** This means that this is a DEBUG kernel and it is     **
+[    0.000000] ** unsafe for production use.                           **
+[    0.000000] **                                                      **
+[    0.000000] ** If you see this message and you are not debugging    **
+[    0.000000] ** the kernel, report this immediately to your vendor!  **
+[    0.000000] **                                                      **
+[    0.000000] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    0.000000] **********************************************************
+[    0.000000] trace event string verifier disabled
+[    0.000000] rcu: Preemptible hierarchical RCU implementation.
+[    0.000000]  Trampoline variant of Tasks RCU enabled.
+[    0.000000]  Tracing variant of Tasks RCU enabled.
+[    0.000000] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+[    0.000000] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[    0.000000] riscv-intc: 64 local interrupts mapped
+[    0.000000] plic: interrupt-controller@e0000000: mapped 159 interrupts with 8 handlers for 16 contexts.
+[    0.000000] riscv: providing IPIs using SBI IPI extension
+[    0.000000] rcu: srcu_init: Setting srcu_struct sizes based on contention.
+[    0.000000] riscv-timer: Timer interrupt in S-mode is available via sstc extension
+[    0.000000] clocksource: riscv_clocksource: mask: 0xffffffffffffffff max_cycles: 0x588fe9dc0, max_idle_ns: 440795202592 ns
+[    0.000000] sched_clock: 64 bits at 24MHz, resolution 41ns, wraps every 4398046511097ns
+[    0.008438] Console: colour dummy device 80x25
+[    0.012674] Calibrating delay loop (skipped), value calculated using timer frequency.. 48.00 BogoMIPS (lpj=96000)
+[    0.022920] pid_max: default: 32768 minimum: 301
+[    0.027691] LSM: initializing lsm=capability,landlock,apparmor,integrity
+[    0.034437] landlock: Up and running.
+[    0.038176] AppArmor: AppArmor initialized
+[    0.042407] Mount-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    0.049968] Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    0.060145] RCU Tasks: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+[    0.066885] RCU Tasks Trace: Setting shift to 3 and lim to 1 rcu_task_cb_adjust=1 rcu_task_cpu_ids=8.
+[    0.076122] riscv: ELF compat mode unsupported
+[    0.076152] ASID allocator using 16 bits (65536 entries)
+[    0.086043] rcu: Hierarchical SRCU implementation.
+[    0.090808] rcu:     Max phase no-delay instances is 1000.
+[    0.096659] EFI services will not be available.
+[    0.101352] smp: Bringing up secondary CPUs ...
+[    0.112729] smp: Brought up 1 node, 8 CPUs
+[    0.119136] devtmpfs: initialized
+[    0.132696] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.139675] futex hash table entries: 2048 (order: 5, 131072 bytes, linear)
+[    0.151264] pinctrl core: initialized pinctrl subsystem
+[    0.155718] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    0.160705] DMA: preallocated 2048 KiB GFP_KERNEL pool for atomic allocations
+[    0.167178] DMA: preallocated 2048 KiB GFP_KERNEL|GFP_DMA32 pool for atomic allocations
+[    0.174969] audit: initializing netlink subsys (disabled)
+[    0.180685] audit: type=2000 audit(0.116:1): state=initialized audit_enabled=0 res=1
+[    0.180964] display class register
+[    0.191829] thermal_sys: Registered thermal governor 'step_wise'
+[    0.191885] cpuidle: using governor menu
+[    0.225775] cpu6: Ratio of byte access time to unaligned word access is 2.18, unaligned accesses are fast
+[    0.225776] cpu7: Ratio of byte access time to unaligned word access is 1.91, unaligned accesses are fast
+[    0.225776] cpu5: Ratio of byte access time to unaligned word access is 2.50, unaligned accesses are fast
+[    0.225775] cpu3: Ratio of byte access time to unaligned word access is 2.53, unaligned accesses are fast
+[    0.225775] cpu1: Ratio of byte access time to unaligned word access is 2.47, unaligned accesses are fast
+[    0.225776] cpu2: Ratio of byte access time to unaligned word access is 2.50, unaligned accesses are fast
+[    0.225776] cpu4: Ratio of byte access time to unaligned word access is 1.99, unaligned accesses are fast
+[    0.313846] cpu0: Ratio of byte access time to unaligned word access is 10.56, unaligned accesses are fast
+[    0.320658] The real ratio of byte access time to unaligned word access should refer to the value of CPU0
+[    0.330280] Cpu0 unaligned access is more efficient than nonboot cores, because of system bandwidth preemption.
+[    0.340434] Nonboot cpus' unaligned access ratio measured simultaneously, but cpu0's measure is separately
+[    0.350171] suspend: SBI SUSP extension detected
+[    0.360145] platform soc: Fixed dependency cycle(s) with /soc/hdmi@C0400500
+[    0.365861] platform d401e000.pinctrl: Fixed dependency cycle(s) with /soc/interrupt-controller@e0000000
+[    0.373863] platform d401e000.pinctrl: Fixed dependency cycle(s) with /soc/reset-controller@d4050000
+[    0.383026] platform d401e000.pinctrl: Fixed dependency cycle(s) with /soc/clock-controller@d4050000
+[    0.392431] pinctrl-single d401e000.pinctrl: could not get resource
+[    0.407848] platform soc: Fixed dependency cycle(s) with /soc/hdmi@C0400500
+[    0.412026] platform c0400500.hdmi: Fixed dependency cycle(s) with /soc
+[    0.418707] platform c0400500.hdmi: Fixed dependency cycle(s) with /soc/pinctrl@d401e000/hdmi_0_grp
+[    0.427820] platform c0400500.hdmi: Fixed dependency cycle(s) with /soc/reset-controller@d4050000
+[    0.436729] platform c0400500.hdmi: Fixed dependency cycle(s) with /soc/clock-controller@d4050000
+[    0.445659] platform c0400500.hdmi: Fixed dependency cycle(s) with /soc/interrupt-controller@e0000000
+[    0.460748] HugeTLB: registered 1.00 GiB page size, pre-allocated 0 pages
+[    0.464712] HugeTLB: 0 KiB vmemmap can be freed for a 1.00 GiB page
+[    0.471028] HugeTLB: registered 64.0 KiB page size, pre-allocated 0 pages
+[    0.477882] HugeTLB: 0 KiB vmemmap can be freed for a 64.0 KiB page
+[    0.484220] HugeTLB: registered 2.00 MiB page size, pre-allocated 0 pages
+[    0.491075] HugeTLB: 0 KiB vmemmap can be freed for a 2.00 MiB page
+[    0.499087] gpio gpiochip0: Static allocation of GPIO base is deprecated, use dynamic allocation.
+[    0.507825] mmp-pdma d4000000.pdma: PM domain power-domain@SPT_PD_BUS will not be powered off
+[    0.516474] SCSI subsystem initialized
+[    0.519221] libata version 3.00 loaded.
+[    0.522813] usbcore: registered new interface driver usbfs
+[    0.528261] usbcore: registered new interface driver hub
+[    0.533644] usbcore: registered new device driver usb
+[    0.539086] mc: Linux media interface: v0.10
+[    0.543124] videodev: Linux video capture interface: v2.00
+[    0.548671] pps_core: LinuxPPS API ver. 1 registered
+[    0.553665] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.562875] PTP clock support registered
+[    0.567481] Advanced Linux Sound Architecture Driver Initialized.
+[    0.568970] raid6: int64x8  gen()  1103 MB/s
+[    0.573622] NET: Registered PF_INET protocol family
+[    0.582744] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    0.601814] tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
+[    0.607962] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[    0.615422] TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    0.623996] TCP bind hash table entries: 65536 (order: 9, 2097152 bytes, linear)
+[    0.633065] TCP: Hash tables configured (established 131072 bind 65536)
+[    0.638120] MPTCP token hash table entries: 16384 (order: 6, 393216 bytes, linear)
+[    0.645127] raid6: int64x4  gen()  1581 MB/s
+[    0.645668] UDP hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    0.656664] UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    0.664171] Bluetooth: Core ver 2.22
+[    0.667558] NET: Registered PF_BLUETOOTH protocol family
+[    0.672870] Bluetooth: HCI device and connection manager initialized
+[    0.679291] Bluetooth: HCI socket layer initialized
+[    0.684238] Bluetooth: L2CAP socket layer initialized
+[    0.689369] Bluetooth: SCO socket layer initialized
+[    0.694711] mctp: management component transport protocol core
+[    0.700215] NET: Registered PF_MCTP protocol family
+[    0.705290] vgaarb: loaded
+[    0.717258] raid6: int64x2  gen()  1658 MB/s
+[    0.717260] clocksource: Switched to clocksource riscv_clocksource
+[    0.717686] VFS: Disk quotas dquot_6.6.0
+[    0.728965] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.736604] AppArmor: AppArmor Filesystem Enabled
+[    0.747940] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    0.751397] RPC: Registered named UNIX socket transport module.
+[    0.756753] RPC: Registered udp transport module.
+[    0.761521] RPC: Registered tcp transport module.
+[    0.766293] RPC: Registered tcp-with-tls transport module.
+[    0.771849] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.779294] NET: Registered PF_XDP protocol family
+[    0.783243] PCI: CLS 0 bytes, default 64
+[    0.785274] raid6: int64x1  gen()  1358 MB/s
+[    0.788400] Initialise system trusted keyrings
+[    0.791562] raid6: using algorithm int64x2 gen() 1658 MB/s
+[    0.801881] workingset: timestamp_bits=46 max_order=22 bucket_order=0
+[    0.809563] NFS: Registering the id_resolver key type
+[    0.813288] Key type id_resolver registered
+[    0.817512] Key type id_legacy registered
+[    0.821611] nfs4filelayout_init: NFSv4 File Layout Driver Registering...
+[    0.828370] nfs4flexfilelayout_init: NFSv4 Flexfile Layout Driver Registering...
+[    0.838103] Key type cifs.spnego registered
+[    0.840134] Key type cifs.idmap registered
+[    0.844494] ntfs: driver 2.1.32 [Flags: R/W].
+[    0.848715] ntfs3: Enabled Linux POSIX ACLs support
+[    0.853622] ntfs3: Read-only LZX/Xpress compression included
+[    0.857260] raid6: .... xor() 839 MB/s, rmw enabled
+[    0.859387] fuse: init (API version 7.39)
+[    0.864297] raid6: using intx1 recovery algorithm
+[    0.895704] xor: measuring software checksum speed
+[    0.898337]    8regs           :  4732 MB/sec
+[    0.902789]    32regs          :  4555 MB/sec
+[    0.907076]    rvv             :  5629 MB/sec
+[    0.910964] xor: using function: rvv (5629 MB/sec)
+[    0.915797] async_tx: api initialized (async)
+[    0.920217] Key type asymmetric registered
+[    0.924377] Asymmetric key parser 'x509' registered
+[    0.929558] io scheduler mq-deadline registered
+[    0.933939] io scheduler kyber registered
+[    0.938053] io scheduler bfq registered
+[    0.948956] [ddrbw] MAJOR is 243
+[    0.949369] [ddrbw] MINOR is 0
+[    0.980209] PVR_K:  1: Read BVNC 36.29.52.182 from HW device registers
+[    0.983993] PVR_K:  1: RGX Device registered BVNC 36.29.52.182 with 1 core in the system
+[    0.992880] [drm] Initialized pvr 24.2.6603887 20170530 for cac00000.imggpu on minor 0
+[    1.007783] loop: module loaded
+[    1.010517] Rounding down aligned max_sectors from 4294967295 to 4294967288
+[    1.015356] db_root: cannot open: /etc/target
+[    1.020882] tun: Universal TUN/TAP device driver, 1.6
+[    1.024887] CAN device driver interface
+[    1.029031] PPP generic driver version 2.4.2
+[    1.033126] usbcore: registered new interface driver cdc_ether
+[    1.038845] usbcore: registered new interface driver cdc_subset
+[    1.044831] usbcore: registered new interface driver zaurus
+[    1.051855] spacemit-k1x-combphy c0b10000.phy: USB3 PHY init.
+[    1.056324] spacemit-k1x-combphy c0b10000.phy: USB3 PHY init lfps thres 3
+[    1.064883] mv-ehci mv-ehci1: Spacemit EHCI
+[    1.067440] mv-ehci mv-ehci1: new USB bus registered, assigned bus number 1
+[    1.074552] mv-ehci mv-ehci1: irq 19, io mem 0xc0980100
+[    1.093279] mv-ehci mv-ehci1: USB 2.0 started, EHCI 1.00
+[    1.096454] hub 1-0:1.0: USB hub found
+[    1.099675] hub 1-0:1.0: 1 port detected
+[    1.104849] xhci-hcd xhci-hcd.0.auto: xHCI Host Controller
+[    1.109141] xhci-hcd xhci-hcd.0.auto: new USB bus registered, assigned bus number 2
+[    1.117064] xhci-hcd xhci-hcd.0.auto: hcc params 0x0220fe6d hci version 0x110 quirks 0x0000008000000090
+[    1.126488] xhci-hcd xhci-hcd.0.auto: irq 18, io mem 0xc0a00000
+[    1.132439] xhci-hcd xhci-hcd.0.auto: xHCI Host Controller
+[    1.137857] xhci-hcd xhci-hcd.0.auto: new USB bus registered, assigned bus number 3
+[    1.145564] xhci-hcd xhci-hcd.0.auto: Host supports USB 3.0 SuperSpeed
+[    1.152771] hub 2-0:1.0: USB hub found
+[    1.156015] hub 2-0:1.0: 1 port detected
+[    1.160289] usb usb3: We don't know the algorithms for LPM for this host, disabling LPM.
+[    1.168594] hub 3-0:1.0: USB hub found
+[    1.171980] hub 3-0:1.0: 1 port detected
+[    1.176543] usbcore: registered new interface driver uas
+[    1.181486] usbcore: registered new interface driver usb-storage
+[    1.187615] spacemit-usb3-hub soc:usb3hub@0: v1.0.2
+[    1.192391] spacemit-usb3-hub soc:usb3hub@0: failed to retrieve hub-gpios from dts
+[    1.200393] K1X_UDC: mv_udc_probe enter ...
+[    1.204497] mv-udc mv-udc:  use 32bit DMA mask
+[    1.208801] mv_udc: dqh size = 0x800  udc->ep_dqh_dma = 0x280a000
+[    1.215438] mv-udc mv-udc: successful probe UDC device without clock gating.
+[    1.222229] f_tcm: UAS support multiple cmds
+[    1.226461] Gt9xx driver installing..
+[    1.230253] <I>CTS-SPIDrv Chipone touch driver init, version: v3.7.0-sz
+[    1.236798] <I>CTS-SPIDrv  - Register spi driver
+[    1.241523] <I>CTS-SPIDrv  - Register touch driver successfully
+[    1.248257] i2c_dev: i2c /dev entries driver
+[    1.254113] MVX dev: Linlon v5276 identified. cores=2, nlsid=4, id=0, fuse=00000000, hw_id=00005276, hw_rev=00000050
+[    1.263541] d420a000.csiphy begin to probe
+[    1.266650] d420a000.csiphy probed
+[    1.266745] d4206000.csiphy begin to probe
+[    1.274232] d4206000.csiphy probed
+[    1.274987] d420a000.ccic probed in k1x_ccic_probe
+[    1.278712] d420a800.ccic probed in k1x_ccic_probe
+[    1.283210] d4206000.ccic probed in k1x_ccic_probe
+[    1.294298] acquire ccic0 ctrl dev succeed
+[    1.300438] acquire ccic1 ctrl dev succeed
+[    1.304597] acquire ccic2 ctrl dev succeed
+[    1.314793] vcam_inf: svivi_probe 978: svivi probe ok.
+[    1.317218] usbcore: registered new interface driver uvcvideo
+[    1.327732] device-mapper: core: CONFIG_IMA_DISABLE_HTABLE is disabled. Duplicate IMA measurements will not be recorded in the IMA log.
+[    1.337121] device-mapper: uevent: version 1.0.3
+[    1.342164] device-mapper: ioctl: 4.48.0-ioctl (2023-03-01) initialised: dm-devel@redhat.com
+[    1.350754] device-mapper: multipath round-robin: version 1.2.0 loaded
+[    1.356869] device-mapper: multipath queue-length: version 0.2.0 loaded
+[    1.363635] device-mapper: multipath service-time: version 0.3.0 loaded
+[    1.370318] device-mapper: multipath historical-service-time: version 0.1.1 loaded
+[    1.377997] Bluetooth: HCI UART driver ver 2.3
+[    1.382378] Bluetooth: HCI UART protocol H4 registered
+[    1.387634] Bluetooth: HCI UART protocol Three-wire (H5) registered
+[    1.394488] of: _read_rate: Count mismatch between opp-hz and clk_count (2 1)
+[    1.401152] cpu cpu0: _opp_add_static_v2: opp key field not found
+[    1.407290] cpu cpu0: _of_add_opp_table_v2: Failed to add OPP, -22
+[    1.413682] cpu cpu0: OPP table can't be empty
+[    1.418529] sdhci: Secure Digital Host Controller Interface driver
+[    1.424329] sdhci: Copyright(c) Pierre Ossman
+[    1.428727] sdhci-pltfm: SDHCI platform and OF driver helper
+[    1.559319] mmc2: new HS400 Enhanced strobe MMC card at address 0001
+[    1.563552] mmcblk2: mmc2:0001 A3V012 116 GiB
+[    1.569082]  mmcblk2: p1
+[    1.570441] mmcblk2boot0: mmc2:0001 A3V012 4.00 MiB
+[    1.576161] mmcblk2boot1: mmc2:0001 A3V012 4.00 MiB
+[    1.580905] mmcblk2rpmb: mmc2:0001 A3V012 16.0 MiB, chardev (239:0)
+[    1.586280] mmc2: SDHCI controller on d4281000.sdh [d4281000.sdh] using ADMA
+[    1.595748] usbcore: registered new interface driver usbhid
+[    1.598898] usbhid: USB HID core driver
+[    1.604224] riscv-pmu-sbi: SBI PMU extension is available
+[    1.608286] riscv-pmu-sbi: 16 firmware and 18 hardware counters
+[    1.617169] NET: Registered PF_INET6 protocol family
+[    1.622673] Segment Routing with IPv6
+[    1.623535] In-situ OAM (IOAM) with IPv6
+[    1.627582] NET: Registered PF_PACKET protocol family
+[    1.632610] can: controller area network core
+[    1.637072] NET: Registered PF_CAN protocol family
+[    1.641899] can: raw protocol
+[    1.644930] can: broadcast manager protocol
+[    1.649192] can: netlink gateway - max_hops=1
+[    1.653806] Bluetooth: RFCOMM TTY layer initialized
+[    1.658579] Bluetooth: RFCOMM socket layer initialized
+[    1.663793] Bluetooth: RFCOMM ver 1.11
+[    1.667596] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+[    1.672970] Bluetooth: BNEP filters: protocol multicast
+[    1.678269] Bluetooth: BNEP socket layer initialized
+[    1.683300] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+[    1.689292] Bluetooth: HIDP socket layer initialized
+[    1.694589] Key type dns_resolver registered
+[    1.708795] registered taskstats version 1
+[    1.710340] Loading compiled-in X.509 certificates
+[    1.723331] Key type .fscrypt registered
+[    1.724408] Key type fscrypt-provisioning registered
+[    1.730466] AppArmor: AppArmor sha1 policy hashing enabled
+[    1.735088] ima: No TPM chip found, activating TPM-bypass!
+[    1.740579] Loading compiled-in module X.509 certificates
+[    1.748711] Loaded X.509 cert 'Build time autogenerated kernel key: d09751580b02856b8914d7580a3c7f0249a3a0b1'
+[    1.756027] ima: Allocated hash algorithm: sha1
+[    1.760636] ima: No architecture policies found
+[    1.777192] suspend: SBI SUSP extension detected
+[    1.780246] spacemit-socinfo soc:socinfo@0: Spacemit: CPU[K1-6370] REV[C] DRO[123] Detected
+[    1.787982] spacemit-usb3-hub soc:usb3hub@0: v1.0.2
+[    1.792385] spacemit-usb3-hub soc:usb3hub@0: failed to retrieve hub-gpios from dts
+[    1.801775] spacemit-usb3-hub soc:usb3hub@0: v1.0.2
+[    1.804943] spacemit-usb3-hub soc:usb3hub@0: failed to retrieve hub-gpios from dts
+[    1.816014] spacemit-usb3-hub soc:usb3hub@0: v1.0.2
+[    1.818093] spacemit-usb3-hub soc:usb3hub@0: failed to retrieve hub-gpios from dts
+[    1.827208] Trying to probe devices needed for running init ...
+[    1.832510] spacemit-usb3-hub soc:usb3hub@0: v1.0.2
+[    1.836718] spacemit-usb3-hub soc:usb3hub@0: failed to retrieve hub-gpios from dts
+[   11.818265] spacemit-usb3-hub soc:usb3hub@0: v1.0.2
+[   11.820330] spacemit-usb3-hub soc:usb3hub@0: failed to retrieve hub-gpios from dts
+[   11.829521] platform d4017100.uart: deferred probe pending
+[   11.833499] platform d420c000.spi: deferred probe pending
+[   11.838961] platform cac80000.ethernet: deferred probe pending
+[   11.844862] platform cac81000.ethernet: deferred probe pending
+[   11.850764] platform snd-card@0: deferred probe pending
+[   11.856059] platform snd-card@1: deferred probe pending
+[   11.861355] platform soc:usb3hub@0: deferred probe pending
+[   11.866910] platform pwm-fan: deferred probe pending
+[   11.871946] platform d4280000.sdh: deferred probe pending
+[   11.877413] platform d4280800.sdh: deferred probe pending
+[   11.882885] platform leds: deferred probe pending
+[   11.887657] platform c088c000.rcpu_rproc: deferred probe pending
+[   11.893733] platform d4026000.i2s0: deferred probe pending
+[   11.899288] platform d4021800.pwm: deferred probe pending
+[   11.904757] platform c0888300.pwm: deferred probe pending
+[   11.910226] platform c0400500.hdmi: deferred probe pending
+[   11.915781] platform d4010800.i2c: deferred probe pending
+[   11.921253] platform d4012000.i2c: deferred probe pending
+[   11.926718] platform d401d800.i2c: deferred probe pending
+[   11.932189] platform ca400000.pcie: deferred probe pending
+[   11.937752] platform ca800000.pcie: deferred probe pending
+[   11.943309] platform soc:lcd_backlight: deferred probe pending
+[   11.949202] platform soc:cam_sensor@0: deferred probe pending
+[   11.955016] platform c0883900.spacemit_snd_sspa: deferred probe pending
+[   11.961701] platform rf-pwrseq: deferred probe pending
+[   11.966910] platform d4017000.serial: deferred probe pending
+[   14.121300] cfg80211: Loading compiled-in X.509 certificates for regulatory database
+[   14.127257] Loaded X.509 cert 'sforshee: 00b28ddf47aef9cea7'
+[   14.132635] Loaded X.509 cert 'wens: 61c038651aabdcf94bd0ac7ff06c7248db18c600'
+[   14.139247] clk: Not disabling unused clocks
+[   14.143861] ALSA device list:
+[   14.146595]   No soundcards found.
+[   14.150116] Warning: unable to open an initial console.
+[   14.155372] md: Waiting for all devices to be available before autodetect
+[   14.162212] md: If you don't use raid, use raid=noautodetect
+[   14.167935] md: Autodetecting RAID arrays.
+[   14.172101] md: autorun ...
+[   14.174964] md: ... autorun DONE.
+[  111.657703] VFS: Unable to mount root fs via NFS.
+[  111.659629] devtmpfs: mounted
+[  111.663495] Freeing unused kernel image (initmem) memory: 2304K
+[  111.671319] Checked W+X mappings: passed, no W+X pages found
+[  111.674385] Run /sbin/init as init process
+[  111.678501]   with arguments:
+[  111.681531]     /sbin/init
+[  111.684291]   with environment:
+[  111.687512]     HOME=/
+[  111.689939]     TERM=linux
+[  111.692931] Run /etc/init as init process
+[  111.696816]   with arguments:
+[  111.699838]     /etc/init
+[  111.702526]   with environment:
+[  111.705739]     HOME=/
+[  111.708162]     TERM=linux
+[  111.711009] Run /bin/init as init process
+[  111.715032]   with arguments:
+[  111.718065]     /bin/init
+[  111.720749]   with environment:
+[  111.723968]     HOME=/
+[  111.726396]     TERM=linux
+[  111.729225] Run /bin/sh as init process
+[  111.733089]   with arguments:
+[  111.736120]     /bin/sh
+[  111.738638]   with environment:
+[  111.741849]     HOME=/
+[  111.744273]     TERM=linux
+[  111.747114] Kernel panic - not syncing: No working init found.  Try passing init= option to kernel. See Linux Documentation/admin-guide/init.rst for guidance.
+[  111.761291] CPU: 4 PID: 1 Comm: swapper/0 Not tainted 6.6.63+ #1
+[  111.767364] Hardware name: spacemit k1-x deb1 board (DT)
+[  111.772747] Call Trace:
+[  111.775265] [<ffffffff8000662c>] dump_backtrace+0x1c/0x24
+[  111.780732] [<ffffffff80f904e4>] show_stack+0x2c/0x38
+[  111.785854] [<ffffffff80faac36>] dump_stack_lvl+0x3c/0x54
+[  111.791322] [<ffffffff80faac62>] dump_stack+0x14/0x1c
+[  111.796443] [<ffffffff80f90724>] panic+0x102/0x2a6
+[  111.801304] [<ffffffff80fac664>] kernel_init+0x108/0x114
+[  111.806687] [<ffffffff80fb5026>] ret_from_fork+0xe/0x18
+[  111.811983] SMP: stopping secondary CPUs
+[  111.815998] ---[ end Kernel panic - not syncing: No working init found.  Try passing init= option to kernel. See Linux Documentation/admin-guide/init.rst for guidance. ]---
