@@ -1,0 +1,617 @@
+k1-x_deb1_cloud_v.dts:687.16-695.5: Warning (unit_address_vs_reg): /soc/dram_range@0: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:697.16-705.5: Warning (unit_address_vs_reg): /soc/dram_range@1: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:707.16-715.5: Warning (unit_address_vs_reg): /soc/dram_range@2: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:717.16-725.5: Warning (unit_address_vs_reg): /soc/dram_range@3: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:727.16-735.5: Warning (unit_address_vs_reg): /soc/dram_range@4: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:737.16-745.5: Warning (unit_address_vs_reg): /soc/dram_range@5: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:747.16-755.5: Warning (unit_address_vs_reg): /soc/dram_range@6: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:757.16-765.5: Warning (unit_address_vs_reg): /soc/dram_range@7: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:1508.22-1640.5: Warning (unit_address_vs_reg): /soc/power-management@0: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:3206.13-3214.5: Warning (unit_address_vs_reg): /soc/usb3hub@0: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:3814.35-3825.5: Warning (unit_address_vs_reg): /soc/spacemit_crypto_engine@d8600000: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:3877.13-3882.5: Warning (unit_address_vs_reg): /soc/socinfo@0: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:3889.26-3895.5: Warning (unit_address_vs_reg): /soc/display-subsystem-hdmi: node has a reg or ranges property, but no unit name
+k1-x_deb1_cloud_v.dts:3897.17-3924.5: Warning (unit_address_vs_reg): /soc/port@c0440000: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:3917.15-3920.6: Warning (unit_address_vs_reg): /soc/port@c0440000/endpoint@0: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:3922.15-3923.6: Warning (unit_address_vs_reg): /soc/port@c0440000/endpoint@1: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:3968.25-3974.5: Warning (unit_address_vs_reg): /soc/display-subsystem-dsi: node has a reg or ranges property, but no unit name
+k1-x_deb1_cloud_v.dts:3976.17-4008.5: Warning (unit_address_vs_reg): /soc/port@c0340000: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:3999.15-4002.6: Warning (unit_address_vs_reg): /soc/port@c0340000/endpoint@0: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:4004.15-4007.6: Warning (unit_address_vs_reg): /soc/port@c0340000/endpoint@1: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:4098.16-4116.5: Warning (unit_address_vs_reg): /soc/cam_sensor@0: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:4118.16-4132.5: Warning (unit_address_vs_reg): /soc/cam_sensor@1: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:4134.16-4152.5: Warning (unit_address_vs_reg): /soc/cam_sensor@2: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:4324.24-4332.4: Warning (unit_address_vs_reg): /spacemit_snd_dma_hdmi: node has a reg or ranges property, but no unit name
+k1-x_deb1_cloud_v.dts:4391.13-4409.4: Warning (unit_address_vs_reg): /snd-card@0: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:4411.13-4432.4: Warning (unit_address_vs_reg): /snd-card@1: node has a unit name, but no reg or ranges property
+k1-x_deb1_cloud_v.dts:687.16-695.5: Warning (simple_bus_reg): /soc/dram_range@0: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:697.16-705.5: Warning (simple_bus_reg): /soc/dram_range@1: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:707.16-715.5: Warning (simple_bus_reg): /soc/dram_range@2: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:717.16-725.5: Warning (simple_bus_reg): /soc/dram_range@3: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:727.16-735.5: Warning (simple_bus_reg): /soc/dram_range@4: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:737.16-745.5: Warning (simple_bus_reg): /soc/dram_range@5: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:747.16-755.5: Warning (simple_bus_reg): /soc/dram_range@6: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:757.16-765.5: Warning (simple_bus_reg): /soc/dram_range@7: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:1514.11-1517.6: Warning (simple_bus_reg): /soc/power-management@0/mpmu@1: simple-bus unit address format error, expected "d4050000"
+k1-x_deb1_cloud_v.dts:1519.11-1522.6: Warning (simple_bus_reg): /soc/power-management@0/apmu@2: simple-bus unit address format error, expected "d4282800"
+k1-x_deb1_cloud_v.dts:1524.21-1639.6: Warning (simple_bus_reg): /soc/power-management@0/power-controller: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:1835.16-1852.5: Warning (simple_bus_reg): /soc/rcpu_rproc@0: simple-bus unit address format error, expected "c088c000"
+k1-x_deb1_cloud_v.dts:1874.17-1882.5: Warning (simple_bus_reg): /soc/adma@C0883800: simple-bus unit address format error, expected "c0883800"
+k1-x_deb1_cloud_v.dts:3197.22-3204.5: Warning (simple_bus_reg): /soc/usb2phy@0xc0a30000: simple-bus unit address format error, expected "c0a30000"
+k1-x_deb1_cloud_v.dts:3206.13-3214.5: Warning (simple_bus_reg): /soc/usb3hub@0: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:3216.10-3254.5: Warning (simple_bus_reg): /soc/usb3@0: simple-bus unit address format error, expected "d4282bc8"
+k1-x_deb1_cloud_v.dts:3527.17-3708.5: Warning (simple_bus_reg): /soc/thermal-zones: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:3710.18-3737.5: Warning (simple_bus_reg): /soc/tcm@0xd8000000: simple-bus unit address format error, expected "d8000000"
+k1-x_deb1_cloud_v.dts:3790.17-3796.5: Warning (simple_bus_reg): /soc/lcd_backlight: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:3814.35-3825.5: Warning (simple_bus_reg): /soc/spacemit_crypto_engine@d8600000: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:3877.13-3882.5: Warning (simple_bus_reg): /soc/socinfo@0: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:3889.26-3895.5: Warning (simple_bus_reg): /soc/display-subsystem-hdmi: simple-bus unit address format error, expected "c0440000"
+k1-x_deb1_cloud_v.dts:3897.17-3924.5: Warning (simple_bus_reg): /soc/port@c0440000: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:3926.30-3938.5: Warning (simple_bus_reg): /soc/spacemit_snd_sspa@C0883900: simple-bus unit address format error, expected "c0883900"
+k1-x_deb1_cloud_v.dts:3940.17-3966.5: Warning (simple_bus_reg): /soc/hdmi@C0400500: simple-bus unit address format error, expected "c0400500"
+k1-x_deb1_cloud_v.dts:3968.25-3974.5: Warning (simple_bus_reg): /soc/display-subsystem-dsi: simple-bus unit address format error, expected "c0340000"
+k1-x_deb1_cloud_v.dts:3976.17-4008.5: Warning (simple_bus_reg): /soc/port@c0340000: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:4078.7-4096.5: Warning (simple_bus_reg): /soc/wb0: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:4098.16-4116.5: Warning (simple_bus_reg): /soc/cam_sensor@0: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:4118.16-4132.5: Warning (simple_bus_reg): /soc/cam_sensor@1: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:4134.16-4152.5: Warning (simple_bus_reg): /soc/cam_sensor@2: missing or empty reg/ranges property
+k1-x_deb1_cloud_v.dts:4265.16-4280.5: Warning (simple_bus_reg): /soc/isp@C0230000: simple-bus unit address format error, expected "c0230000"
+k1-x_deb1_cloud_v.dts:4282.15-4297.5: Warning (simple_bus_reg): /soc/vi@C0230000: simple-bus unit address format error, expected "c0230000"
+k1-x_deb1_cloud_v.dts:4299.16-4314.5: Warning (simple_bus_reg): /soc/cpp@C02f0000: simple-bus unit address format error, expected "c02f0000"
+k1-x_deb1_cloud_v.dts:805.20-1506.5: Warning (avoid_unnecessary_addr_size): /soc/pinctrl@d401e000: unnecessary #address-cells/#size-cells without "ranges" or child "reg" property
+k1-x_deb1_cloud_v.dts:4391.13-4409.4: Warning (unique_unit_address): /snd-card@0: duplicate unit-address (also used in node /memory@0)
+k1-x_deb1_cloud_v.dts:773.29-782.5: Warning (unique_unit_address): /soc/clock-controller@d4050000: duplicate unit-address (also used in node /soc/reset-controller@d4050000)
+k1-x_deb1_cloud_v.dts:687.16-695.5: Warning (unique_unit_address): /soc/dram_range@0: duplicate unit-address (also used in node /soc/power-management@0)
+k1-x_deb1_cloud_v.dts:687.16-695.5: Warning (unique_unit_address): /soc/dram_range@0: duplicate unit-address (also used in node /soc/rcpu_rproc@0)
+k1-x_deb1_cloud_v.dts:1508.22-1640.5: Warning (unique_unit_address): /soc/power-management@0: duplicate unit-address (also used in node /soc/rcpu_rproc@0)
+k1-x_deb1_cloud_v.dts:3059.16-3079.5: Warning (unique_unit_address): /soc/otg@c0900100: duplicate unit-address (also used in node /soc/udc@c0900100)
+k1-x_deb1_cloud_v.dts:3059.16-3079.5: Warning (unique_unit_address): /soc/otg@c0900100: duplicate unit-address (also used in node /soc/ehci@c0900100)
+k1-x_deb1_cloud_v.dts:3081.16-3096.5: Warning (unique_unit_address): /soc/udc@c0900100: duplicate unit-address (also used in node /soc/ehci@c0900100)
+k1-x_deb1_cloud_v.dts:3127.17-3147.5: Warning (unique_unit_address): /soc/otg1@c0980100: duplicate unit-address (also used in node /soc/udc1@c0980100)
+k1-x_deb1_cloud_v.dts:3127.17-3147.5: Warning (unique_unit_address): /soc/otg1@c0980100: duplicate unit-address (also used in node /soc/ehci1@c0980100)
+k1-x_deb1_cloud_v.dts:3149.17-3164.5: Warning (unique_unit_address): /soc/udc1@c0980100: duplicate unit-address (also used in node /soc/ehci1@c0980100)
+k1-x_deb1_cloud_v.dts:687.16-695.5: Warning (unique_unit_address): /soc/dram_range@0: duplicate unit-address (also used in node /soc/usb3hub@0)
+k1-x_deb1_cloud_v.dts:1508.22-1640.5: Warning (unique_unit_address): /soc/power-management@0: duplicate unit-address (also used in node /soc/usb3hub@0)
+k1-x_deb1_cloud_v.dts:1835.16-1852.5: Warning (unique_unit_address): /soc/rcpu_rproc@0: duplicate unit-address (also used in node /soc/usb3hub@0)
+k1-x_deb1_cloud_v.dts:687.16-695.5: Warning (unique_unit_address): /soc/dram_range@0: duplicate unit-address (also used in node /soc/usb3@0)
+k1-x_deb1_cloud_v.dts:1508.22-1640.5: Warning (unique_unit_address): /soc/power-management@0: duplicate unit-address (also used in node /soc/usb3@0)
+k1-x_deb1_cloud_v.dts:1835.16-1852.5: Warning (unique_unit_address): /soc/rcpu_rproc@0: duplicate unit-address (also used in node /soc/usb3@0)
+k1-x_deb1_cloud_v.dts:3206.13-3214.5: Warning (unique_unit_address): /soc/usb3hub@0: duplicate unit-address (also used in node /soc/usb3@0)
+k1-x_deb1_cloud_v.dts:687.16-695.5: Warning (unique_unit_address): /soc/dram_range@0: duplicate unit-address (also used in node /soc/socinfo@0)
+k1-x_deb1_cloud_v.dts:1508.22-1640.5: Warning (unique_unit_address): /soc/power-management@0: duplicate unit-address (also used in node /soc/socinfo@0)
+k1-x_deb1_cloud_v.dts:1835.16-1852.5: Warning (unique_unit_address): /soc/rcpu_rproc@0: duplicate unit-address (also used in node /soc/socinfo@0)
+k1-x_deb1_cloud_v.dts:3206.13-3214.5: Warning (unique_unit_address): /soc/usb3hub@0: duplicate unit-address (also used in node /soc/socinfo@0)
+k1-x_deb1_cloud_v.dts:3216.10-3254.5: Warning (unique_unit_address): /soc/usb3@0: duplicate unit-address (also used in node /soc/socinfo@0)
+k1-x_deb1_cloud_v.dts:4010.17-4057.5: Warning (unique_unit_address): /soc/dsi2@d421a800: duplicate unit-address (also used in node /soc/dphy2@d421a800)
+k1-x_deb1_cloud_v.dts:687.16-695.5: Warning (unique_unit_address): /soc/dram_range@0: duplicate unit-address (also used in node /soc/cam_sensor@0)
+k1-x_deb1_cloud_v.dts:1508.22-1640.5: Warning (unique_unit_address): /soc/power-management@0: duplicate unit-address (also used in node /soc/cam_sensor@0)
+k1-x_deb1_cloud_v.dts:1835.16-1852.5: Warning (unique_unit_address): /soc/rcpu_rproc@0: duplicate unit-address (also used in node /soc/cam_sensor@0)
+k1-x_deb1_cloud_v.dts:3206.13-3214.5: Warning (unique_unit_address): /soc/usb3hub@0: duplicate unit-address (also used in node /soc/cam_sensor@0)
+k1-x_deb1_cloud_v.dts:3216.10-3254.5: Warning (unique_unit_address): /soc/usb3@0: duplicate unit-address (also used in node /soc/cam_sensor@0)
+k1-x_deb1_cloud_v.dts:3877.13-3882.5: Warning (unique_unit_address): /soc/socinfo@0: duplicate unit-address (also used in node /soc/cam_sensor@0)
+k1-x_deb1_cloud_v.dts:697.16-705.5: Warning (unique_unit_address): /soc/dram_range@1: duplicate unit-address (also used in node /soc/cam_sensor@1)
+k1-x_deb1_cloud_v.dts:707.16-715.5: Warning (unique_unit_address): /soc/dram_range@2: duplicate unit-address (also used in node /soc/cam_sensor@2)
+k1-x_deb1_cloud_v.dts:4163.19-4176.5: Warning (unique_unit_address): /soc/csiphy@d420a000: duplicate unit-address (also used in node /soc/ccic@d420a000)
+k1-x_deb1_cloud_v.dts:4178.19-4190.5: Warning (unique_unit_address): /soc/csiphy@d420a800: duplicate unit-address (also used in node /soc/ccic@d420a800)
+k1-x_deb1_cloud_v.dts:4192.19-4206.5: Warning (unique_unit_address): /soc/csiphy@d4206000: duplicate unit-address (also used in node /soc/ccic@d4206000)
+k1-x_deb1_cloud_v.dts:4265.16-4280.5: Warning (unique_unit_address): /soc/isp@C0230000: duplicate unit-address (also used in node /soc/vi@C0230000)
+k1-x_deb1_cloud_v.dts:54.4-35: Warning (clocks_property): /cpus/cpu@0:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:54.4-35: Warning (clocks_property): /cpus/cpu@0:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:89.4-35: Warning (clocks_property): /cpus/cpu@1:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:89.4-35: Warning (clocks_property): /cpus/cpu@1:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:124.4-35: Warning (clocks_property): /cpus/cpu@2:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:124.4-35: Warning (clocks_property): /cpus/cpu@2:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:159.4-35: Warning (clocks_property): /cpus/cpu@3:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:159.4-35: Warning (clocks_property): /cpus/cpu@3:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:194.4-35: Warning (clocks_property): /cpus/cpu@4:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:194.4-35: Warning (clocks_property): /cpus/cpu@4:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:228.4-35: Warning (clocks_property): /cpus/cpu@5:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:228.4-35: Warning (clocks_property): /cpus/cpu@5:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:262.4-35: Warning (clocks_property): /cpus/cpu@6:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:262.4-35: Warning (clocks_property): /cpus/cpu@6:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:296.4-35: Warning (clocks_property): /cpus/cpu@7:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:296.4-35: Warning (clocks_property): /cpus/cpu@7:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:332.4-85: Warning (clocks_property): /cpus/opp_table0:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:332.4-85: Warning (clocks_property): /cpus/opp_table0:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:332.4-85: Warning (clocks_property): /cpus/opp_table0:clocks: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:332.4-85: Warning (clocks_property): /cpus/opp_table0:clocks: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:332.4-85: Warning (clocks_property): /cpus/opp_table0:clocks: cell 8 is not a phandle reference
+k1-x_deb1_cloud_v.dts:332.4-85: Warning (clocks_property): /cpus/opp_table0:clocks: cell 10 is not a phandle reference
+k1-x_deb1_cloud_v.dts:332.4-85: Warning (clocks_property): /cpus/opp_table0:clocks: cell 12 is not a phandle reference
+k1-x_deb1_cloud_v.dts:390.4-85: Warning (clocks_property): /cpus/opp_table1:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:390.4-85: Warning (clocks_property): /cpus/opp_table1:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:390.4-85: Warning (clocks_property): /cpus/opp_table1:clocks: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:390.4-85: Warning (clocks_property): /cpus/opp_table1:clocks: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:390.4-85: Warning (clocks_property): /cpus/opp_table1:clocks: cell 8 is not a phandle reference
+k1-x_deb1_cloud_v.dts:390.4-85: Warning (clocks_property): /cpus/opp_table1:clocks: cell 10 is not a phandle reference
+k1-x_deb1_cloud_v.dts:390.4-85: Warning (clocks_property): /cpus/opp_table1:clocks: cell 12 is not a phandle reference
+k1-x_deb1_cloud_v.dts:448.4-85: Warning (clocks_property): /cpus/opp_table2:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:448.4-85: Warning (clocks_property): /cpus/opp_table2:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:448.4-85: Warning (clocks_property): /cpus/opp_table2:clocks: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:448.4-85: Warning (clocks_property): /cpus/opp_table2:clocks: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:448.4-85: Warning (clocks_property): /cpus/opp_table2:clocks: cell 8 is not a phandle reference
+k1-x_deb1_cloud_v.dts:448.4-85: Warning (clocks_property): /cpus/opp_table2:clocks: cell 10 is not a phandle reference
+k1-x_deb1_cloud_v.dts:448.4-85: Warning (clocks_property): /cpus/opp_table2:clocks: cell 12 is not a phandle reference
+k1-x_deb1_cloud_v.dts:777.4-40: Warning (clocks_property): /soc/clock-controller@d4050000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:777.4-40: Warning (clocks_property): /soc/clock-controller@d4050000:clocks: cell 1 is not a phandle reference
+k1-x_deb1_cloud_v.dts:777.4-40: Warning (clocks_property): /soc/clock-controller@d4050000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:777.4-40: Warning (clocks_property): /soc/clock-controller@d4050000:clocks: cell 3 is not a phandle reference
+k1-x_deb1_cloud_v.dts:777.4-40: Warning (clocks_property): /soc/clock-controller@d4050000:clocks: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:814.4-25: Warning (clocks_property): /soc/pinctrl@d401e000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1647.4-35: Warning (clocks_property): /soc/serial@d4017000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1647.4-35: Warning (clocks_property): /soc/serial@d4017000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1670.4-35: Warning (clocks_property): /soc/uart@d4017100:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1670.4-35: Warning (clocks_property): /soc/uart@d4017100:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1689.4-35: Warning (clocks_property): /soc/uart@d4017200:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1689.4-35: Warning (clocks_property): /soc/uart@d4017200:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1706.4-35: Warning (clocks_property): /soc/uart@d4017300:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1706.4-35: Warning (clocks_property): /soc/uart@d4017300:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1723.4-35: Warning (clocks_property): /soc/uart@d4017400:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1723.4-35: Warning (clocks_property): /soc/uart@d4017400:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1740.4-35: Warning (clocks_property): /soc/uart@d4017500:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1740.4-35: Warning (clocks_property): /soc/uart@d4017500:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1757.4-35: Warning (clocks_property): /soc/uart@d4017600:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1757.4-35: Warning (clocks_property): /soc/uart@d4017600:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1774.4-35: Warning (clocks_property): /soc/uart@d4017700:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1774.4-35: Warning (clocks_property): /soc/uart@d4017700:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1791.4-35: Warning (clocks_property): /soc/uart@d4017800:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1791.4-35: Warning (clocks_property): /soc/uart@d4017800:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1806.4-35: Warning (clocks_property): /soc/r_uart1@c088d000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1806.4-35: Warning (clocks_property): /soc/r_uart1@c088d000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1826.4-25: Warning (clocks_property): /soc/mailbox@d4013400:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1840.4-25: Warning (clocks_property): /soc/rcpu_rproc@0:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1859.4-25: Warning (clocks_property): /soc/pdma@d4000000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1895.4-25: Warning (clocks_property): /soc/spi@d4026000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1915.4-25: Warning (clocks_property): /soc/spi@d4026800:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1934.4-25: Warning (clocks_property): /soc/spi@f0613000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1955.4-25: Warning (clocks_property): /soc/spi@d401c000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1972.4-25: Warning (clocks_property): /soc/i2c@d4010800:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1998.4-25: Warning (clocks_property): /soc/i2c@d4011000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2021.4-25: Warning (clocks_property): /soc/i2c@d4012000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2079.4-25: Warning (clocks_property): /soc/i2c@f0614000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2104.4-25: Warning (clocks_property): /soc/i2c@d4012800:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2129.4-25: Warning (clocks_property): /soc/i2c@d4013800:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2152.4-25: Warning (clocks_property): /soc/i2c@d4018800:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2192.4-25: Warning (clocks_property): /soc/i2c@d401d000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2217.4-25: Warning (clocks_property): /soc/i2c@d401d800:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2450.4-25: Warning (clocks_property): /soc/ri2c@c0887000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2470.4-25: Warning (clocks_property): /soc/pwm@d401a000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2480.4-25: Warning (clocks_property): /soc/pwm@d401a400:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2490.4-25: Warning (clocks_property): /soc/pwm@d401a800:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2500.4-25: Warning (clocks_property): /soc/pwm@d401ac00:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2510.4-25: Warning (clocks_property): /soc/pwm@d401b000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2520.4-25: Warning (clocks_property): /soc/pwm@d401b400:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2530.4-25: Warning (clocks_property): /soc/pwm@d401b800:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2540.4-25: Warning (clocks_property): /soc/pwm@d401bc00:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2550.4-25: Warning (clocks_property): /soc/pwm@d4020000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2560.4-25: Warning (clocks_property): /soc/pwm@d4020400:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2570.4-25: Warning (clocks_property): /soc/pwm@d4020800:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2580.4-25: Warning (clocks_property): /soc/pwm@d4020c00:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2590.4-25: Warning (clocks_property): /soc/pwm@d4021000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2600.4-25: Warning (clocks_property): /soc/pwm@d4021400:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2610.4-25: Warning (clocks_property): /soc/pwm@d4021800:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2623.4-25: Warning (clocks_property): /soc/pwm@d4021c00:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2633.4-25: Warning (clocks_property): /soc/pwm@d4022000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2643.4-25: Warning (clocks_property): /soc/pwm@d4022400:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2653.4-25: Warning (clocks_property): /soc/pwm@d4022800:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2663.4-25: Warning (clocks_property): /soc/pwm@d4022c00:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2673.4-25: Warning (clocks_property): /soc/pwm@c0888100:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2684.4-25: Warning (clocks_property): /soc/pwm@c0888200:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2695.4-25: Warning (clocks_property): /soc/pwm@c0888300:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2709.4-25: Warning (clocks_property): /soc/pwm@c0888400:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2720.4-25: Warning (clocks_property): /soc/pwm@c0888500:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2731.4-25: Warning (clocks_property): /soc/pwm@c0888600:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2742.4-25: Warning (clocks_property): /soc/pwm@c0888700:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2753.4-25: Warning (clocks_property): /soc/pwm@c0888800:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2764.4-25: Warning (clocks_property): /soc/pwm@c0888900:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2775.4-25: Warning (clocks_property): /soc/pwm@c0888a00:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2787.4-25: Warning (clocks_property): /soc/irc-rx@d4017f00:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2796.4-25: Warning (clocks_property): /soc/irc-rx@c088e000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2816.4-25: Warning (clocks_property): /soc/timer@d4014000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2837.4-25: Warning (clocks_property): /soc/timer@d4016000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2852.4-25: Warning (clocks_property): /soc/watchdog@d4080000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2873.4-25: Warning (clocks_property): /soc/rtc@d4010000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2883.4-35: Warning (clocks_property): /soc/fdcan@d4028000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2883.4-35: Warning (clocks_property): /soc/fdcan@d4028000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2895.4-35: Warning (clocks_property): /soc/fdcan@c0870000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2895.4-35: Warning (clocks_property): /soc/fdcan@c0870000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2908.4-25: Warning (clocks_property): /soc/gpio@d4019000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2939.4-35: Warning (clocks_property): /soc/ethernet@cac80000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2939.4-35: Warning (clocks_property): /soc/ethernet@cac80000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2993.4-35: Warning (clocks_property): /soc/ethernet@cac81000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2993.4-35: Warning (clocks_property): /soc/ethernet@cac81000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3047.4-25: Warning (clocks_property): /soc/extcon@d428287c:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3054.4-25: Warning (clocks_property): /soc/usbphy@c0940000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3066.4-25: Warning (clocks_property): /soc/otg@c0900100:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3089.4-25: Warning (clocks_property): /soc/udc@c0900100:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3106.4-25: Warning (clocks_property): /soc/ehci@c0900100:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3122.4-25: Warning (clocks_property): /soc/usbphy1@c09c0000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3134.4-25: Warning (clocks_property): /soc/otg1@c0980100:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3157.4-25: Warning (clocks_property): /soc/udc1@c0980100:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3174.4-25: Warning (clocks_property): /soc/ehci1@c0980100:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3201.4-25: Warning (clocks_property): /soc/usb2phy@0xc0a30000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3223.4-25: Warning (clocks_property): /soc/usb3@0:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3263.4-45: Warning (clocks_property): /soc/sdh@d4280000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3263.4-45: Warning (clocks_property): /soc/sdh@d4280000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3263.4-45: Warning (clocks_property): /soc/sdh@d4280000:clocks: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3302.4-35: Warning (clocks_property): /soc/sdh@d4280800:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3302.4-35: Warning (clocks_property): /soc/sdh@d4280800:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3335.4-35: Warning (clocks_property): /soc/sdh@d4281000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3335.4-35: Warning (clocks_property): /soc/sdh@d4281000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3360.4-25: Warning (clocks_property): /soc/pcie@ca000000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3397.4-25: Warning (clocks_property): /soc/pcie@ca400000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3436.4-25: Warning (clocks_property): /soc/pcie@ca800000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3480.4-35: Warning (clocks_property): /soc/spi@d420c000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3480.4-35: Warning (clocks_property): /soc/spi@d420c000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3517.4-25: Warning (clocks_property): /soc/thermal@d4018000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3744.4-25: Warning (clocks_property): /soc/linlon-v5@c0500000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3758.4-35: Warning (clocks_property): /soc/v2d@c0100000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3758.4-35: Warning (clocks_property): /soc/v2d@c0100000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3775.4-45: Warning (clocks_property): /soc/jpu@c02f8000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3775.4-45: Warning (clocks_property): /soc/jpu@c02f8000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3775.4-45: Warning (clocks_property): /soc/jpu@c02f8000:clocks: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3805.4-25: Warning (clocks_property): /soc/imggpu@cac00000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3820.4-25: Warning (clocks_property): /soc/spacemit_crypto_engine@d8600000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3841.5-26: Warning (clocks_property): /soc/fuse@f0702800/efuse_bank@7:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3904.4-25: Warning (clocks_property): /soc/port@c0440000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3929.4-35: Warning (clocks_property): /soc/spacemit_snd_sspa@C0883900:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3929.4-35: Warning (clocks_property): /soc/spacemit_snd_sspa@C0883900:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3945.4-25: Warning (clocks_property): /soc/hdmi@C0400500:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3981.4-65: Warning (clocks_property): /soc/port@c0340000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3981.4-65: Warning (clocks_property): /soc/port@c0340000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3981.4-65: Warning (clocks_property): /soc/port@c0340000:clocks: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3981.4-65: Warning (clocks_property): /soc/port@c0340000:clocks: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3981.4-65: Warning (clocks_property): /soc/port@c0340000:clocks: cell 8 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4103.4-25: Warning (clocks_property): /soc/cam_sensor@0:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4123.4-25: Warning (clocks_property): /soc/cam_sensor@1:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4139.4-25: Warning (clocks_property): /soc/cam_sensor@2:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4168.4-25: Warning (clocks_property): /soc/csiphy@d420a000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4183.4-25: Warning (clocks_property): /soc/csiphy@d420a800:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4197.4-25: Warning (clocks_property): /soc/csiphy@d4206000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4217.4-55: Warning (clocks_property): /soc/ccic@d420a000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4217.4-55: Warning (clocks_property): /soc/ccic@d420a000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4217.4-55: Warning (clocks_property): /soc/ccic@d420a000:clocks: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4217.4-55: Warning (clocks_property): /soc/ccic@d420a000:clocks: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4236.4-55: Warning (clocks_property): /soc/ccic@d420a800:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4236.4-55: Warning (clocks_property): /soc/ccic@d420a800:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4236.4-55: Warning (clocks_property): /soc/ccic@d420a800:clocks: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4236.4-55: Warning (clocks_property): /soc/ccic@d420a800:clocks: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4255.4-55: Warning (clocks_property): /soc/ccic@d4206000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4255.4-55: Warning (clocks_property): /soc/ccic@d4206000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4255.4-55: Warning (clocks_property): /soc/ccic@d4206000:clocks: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4255.4-55: Warning (clocks_property): /soc/ccic@d4206000:clocks: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4272.4-45: Warning (clocks_property): /soc/isp@C0230000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4272.4-45: Warning (clocks_property): /soc/isp@C0230000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4272.4-45: Warning (clocks_property): /soc/isp@C0230000:clocks: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4289.4-45: Warning (clocks_property): /soc/vi@C0230000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4289.4-45: Warning (clocks_property): /soc/vi@C0230000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4289.4-45: Warning (clocks_property): /soc/vi@C0230000:clocks: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4306.4-45: Warning (clocks_property): /soc/cpp@C02f0000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4306.4-45: Warning (clocks_property): /soc/cpp@C02f0000:clocks: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4306.4-45: Warning (clocks_property): /soc/cpp@C02f0000:clocks: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4346.3-24: Warning (clocks_property): /i2s0@d4026000:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4364.3-24: Warning (clocks_property): /i2s1@d4026800:clocks: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3575.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map0:cooling-device: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3575.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map0:cooling-device: cell 3 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3575.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map0:cooling-device: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3575.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map0:cooling-device: cell 9 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3575.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map0:cooling-device: cell 12 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3575.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map0:cooling-device: cell 15 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3575.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map0:cooling-device: cell 18 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3575.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map0:cooling-device: cell 21 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3580.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map1:cooling-device: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3580.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map1:cooling-device: cell 3 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3580.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map1:cooling-device: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3580.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map1:cooling-device: cell 9 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3580.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map1:cooling-device: cell 12 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3580.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map1:cooling-device: cell 15 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3580.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map1:cooling-device: cell 18 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3580.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map1:cooling-device: cell 21 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3585.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map2:cooling-device: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3585.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map2:cooling-device: cell 3 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3585.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map2:cooling-device: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3585.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map2:cooling-device: cell 9 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3585.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map2:cooling-device: cell 12 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3585.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map2:cooling-device: cell 15 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3585.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map2:cooling-device: cell 18 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3585.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map2:cooling-device: cell 21 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3590.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map3:cooling-device: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3590.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map3:cooling-device: cell 3 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3590.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map3:cooling-device: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3590.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map3:cooling-device: cell 9 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3590.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map3:cooling-device: cell 12 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3590.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map3:cooling-device: cell 15 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3590.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map3:cooling-device: cell 18 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3590.7-146: Warning (cooling_device_property): /soc/thermal-zones/cluster0_thermal/cooling-maps/map3:cooling-device: cell 21 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3674.7-41: Warning (cooling_device_property): /soc/thermal-zones/top_thermal/cooling-maps/map0:cooling-device: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3679.7-41: Warning (cooling_device_property): /soc/thermal-zones/top_thermal/cooling-maps/map1:cooling-device: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3684.7-41: Warning (cooling_device_property): /soc/thermal-zones/top_thermal/cooling-maps/map2:cooling-device: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3689.7-41: Warning (cooling_device_property): /soc/thermal-zones/top_thermal/cooling-maps/map3:cooling-device: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1654.4-43: Warning (dmas_property): /soc/serial@d4017000:dmas: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1654.4-43: Warning (dmas_property): /soc/serial@d4017000:dmas: cell 3 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1889.4-43: Warning (dmas_property): /soc/spi@d4026000:dmas: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1889.4-43: Warning (dmas_property): /soc/spi@d4026000:dmas: cell 3 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1909.4-43: Warning (dmas_property): /soc/spi@d4026800:dmas: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1909.4-43: Warning (dmas_property): /soc/spi@d4026800:dmas: cell 3 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1949.4-43: Warning (dmas_property): /soc/spi@d401c000:dmas: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1949.4-43: Warning (dmas_property): /soc/spi@d401c000:dmas: cell 3 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3494.4-28: Warning (dmas_property): /soc/spi@d420c000:dmas: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4327.3-17: Warning (dmas_property): /spacemit_snd_dma_hdmi:dmas: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4376.3-42: Warning (dmas_property): /spacemit-snd-dma0:dmas: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4376.3-42: Warning (dmas_property): /spacemit-snd-dma0:dmas: cell 3 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4385.3-42: Warning (dmas_property): /spacemit-snd-dma1:dmas: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4385.3-42: Warning (dmas_property): /spacemit-snd-dma1:dmas: cell 3 is not a phandle reference
+k1-x_deb1_cloud_v.dts:769.4-188: Warning (interrupts_extended_property): /soc/clint@e4000000:interrupts-extended: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:769.4-188: Warning (interrupts_extended_property): /soc/clint@e4000000:interrupts-extended: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:769.4-188: Warning (interrupts_extended_property): /soc/clint@e4000000:interrupts-extended: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:769.4-188: Warning (interrupts_extended_property): /soc/clint@e4000000:interrupts-extended: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:769.4-188: Warning (interrupts_extended_property): /soc/clint@e4000000:interrupts-extended: cell 8 is not a phandle reference
+k1-x_deb1_cloud_v.dts:769.4-188: Warning (interrupts_extended_property): /soc/clint@e4000000:interrupts-extended: cell 10 is not a phandle reference
+k1-x_deb1_cloud_v.dts:769.4-188: Warning (interrupts_extended_property): /soc/clint@e4000000:interrupts-extended: cell 12 is not a phandle reference
+k1-x_deb1_cloud_v.dts:769.4-188: Warning (interrupts_extended_property): /soc/clint@e4000000:interrupts-extended: cell 14 is not a phandle reference
+k1-x_deb1_cloud_v.dts:769.4-188: Warning (interrupts_extended_property): /soc/clint@e4000000:interrupts-extended: cell 16 is not a phandle reference
+k1-x_deb1_cloud_v.dts:769.4-188: Warning (interrupts_extended_property): /soc/clint@e4000000:interrupts-extended: cell 18 is not a phandle reference
+k1-x_deb1_cloud_v.dts:769.4-188: Warning (interrupts_extended_property): /soc/clint@e4000000:interrupts-extended: cell 20 is not a phandle reference
+k1-x_deb1_cloud_v.dts:769.4-188: Warning (interrupts_extended_property): /soc/clint@e4000000:interrupts-extended: cell 22 is not a phandle reference
+k1-x_deb1_cloud_v.dts:769.4-188: Warning (interrupts_extended_property): /soc/clint@e4000000:interrupts-extended: cell 24 is not a phandle reference
+k1-x_deb1_cloud_v.dts:769.4-188: Warning (interrupts_extended_property): /soc/clint@e4000000:interrupts-extended: cell 26 is not a phandle reference
+k1-x_deb1_cloud_v.dts:769.4-188: Warning (interrupts_extended_property): /soc/clint@e4000000:interrupts-extended: cell 28 is not a phandle reference
+k1-x_deb1_cloud_v.dts:769.4-188: Warning (interrupts_extended_property): /soc/clint@e4000000:interrupts-extended: cell 30 is not a phandle reference
+k1-x_deb1_cloud_v.dts:797.4-188: Warning (interrupts_extended_property): /soc/interrupt-controller@e0000000:interrupts-extended: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:797.4-188: Warning (interrupts_extended_property): /soc/interrupt-controller@e0000000:interrupts-extended: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:797.4-188: Warning (interrupts_extended_property): /soc/interrupt-controller@e0000000:interrupts-extended: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:797.4-188: Warning (interrupts_extended_property): /soc/interrupt-controller@e0000000:interrupts-extended: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:797.4-188: Warning (interrupts_extended_property): /soc/interrupt-controller@e0000000:interrupts-extended: cell 8 is not a phandle reference
+k1-x_deb1_cloud_v.dts:797.4-188: Warning (interrupts_extended_property): /soc/interrupt-controller@e0000000:interrupts-extended: cell 10 is not a phandle reference
+k1-x_deb1_cloud_v.dts:797.4-188: Warning (interrupts_extended_property): /soc/interrupt-controller@e0000000:interrupts-extended: cell 12 is not a phandle reference
+k1-x_deb1_cloud_v.dts:797.4-188: Warning (interrupts_extended_property): /soc/interrupt-controller@e0000000:interrupts-extended: cell 14 is not a phandle reference
+k1-x_deb1_cloud_v.dts:797.4-188: Warning (interrupts_extended_property): /soc/interrupt-controller@e0000000:interrupts-extended: cell 16 is not a phandle reference
+k1-x_deb1_cloud_v.dts:797.4-188: Warning (interrupts_extended_property): /soc/interrupt-controller@e0000000:interrupts-extended: cell 18 is not a phandle reference
+k1-x_deb1_cloud_v.dts:797.4-188: Warning (interrupts_extended_property): /soc/interrupt-controller@e0000000:interrupts-extended: cell 20 is not a phandle reference
+k1-x_deb1_cloud_v.dts:797.4-188: Warning (interrupts_extended_property): /soc/interrupt-controller@e0000000:interrupts-extended: cell 22 is not a phandle reference
+k1-x_deb1_cloud_v.dts:797.4-188: Warning (interrupts_extended_property): /soc/interrupt-controller@e0000000:interrupts-extended: cell 24 is not a phandle reference
+k1-x_deb1_cloud_v.dts:797.4-188: Warning (interrupts_extended_property): /soc/interrupt-controller@e0000000:interrupts-extended: cell 26 is not a phandle reference
+k1-x_deb1_cloud_v.dts:797.4-188: Warning (interrupts_extended_property): /soc/interrupt-controller@e0000000:interrupts-extended: cell 28 is not a phandle reference
+k1-x_deb1_cloud_v.dts:797.4-188: Warning (interrupts_extended_property): /soc/interrupt-controller@e0000000:interrupts-extended: cell 30 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1849.4-35: Warning (mboxes_property): /soc/rcpu_rproc@0:mboxes: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1849.4-35: Warning (mboxes_property): /soc/rcpu_rproc@0:mboxes: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3228.4-23: Warning (phys_property): /soc/usb3@0:phys: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1651.4-32: Warning (power_domains_property): /soc/serial@d4017000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1674.4-32: Warning (power_domains_property): /soc/uart@d4017100:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1693.4-32: Warning (power_domains_property): /soc/uart@d4017200:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1710.4-32: Warning (power_domains_property): /soc/uart@d4017300:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1727.4-32: Warning (power_domains_property): /soc/uart@d4017400:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1744.4-32: Warning (power_domains_property): /soc/uart@d4017500:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1761.4-32: Warning (power_domains_property): /soc/uart@d4017600:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1778.4-32: Warning (power_domains_property): /soc/uart@d4017700:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1795.4-32: Warning (power_domains_property): /soc/uart@d4017800:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1809.4-32: Warning (power_domains_property): /soc/r_uart1@c088d000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1830.4-32: Warning (power_domains_property): /soc/mailbox@d4013400:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1845.4-32: Warning (power_domains_property): /soc/rcpu_rproc@0:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1865.4-32: Warning (power_domains_property): /soc/pdma@d4000000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1891.4-32: Warning (power_domains_property): /soc/spi@d4026000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1911.4-32: Warning (power_domains_property): /soc/spi@d4026800:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1930.4-32: Warning (power_domains_property): /soc/spi@f0613000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1951.4-32: Warning (power_domains_property): /soc/spi@d401c000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1980.4-32: Warning (power_domains_property): /soc/i2c@d4010800:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2006.4-32: Warning (power_domains_property): /soc/i2c@d4011000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2029.4-32: Warning (power_domains_property): /soc/i2c@d4012000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2043.5-33: Warning (power_domains_property): /soc/i2c@d4012000/eeprom@50:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2087.4-32: Warning (power_domains_property): /soc/i2c@f0614000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2112.4-32: Warning (power_domains_property): /soc/i2c@d4012800:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2137.4-32: Warning (power_domains_property): /soc/i2c@d4013800:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2160.4-32: Warning (power_domains_property): /soc/i2c@d4018800:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2200.4-32: Warning (power_domains_property): /soc/i2c@d401d000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2225.4-32: Warning (power_domains_property): /soc/i2c@d401d800:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2459.4-32: Warning (power_domains_property): /soc/ri2c@c0887000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2948.4-32: Warning (power_domains_property): /soc/ethernet@cac80000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3002.4-32: Warning (power_domains_property): /soc/ethernet@cac81000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3068.4-32: Warning (power_domains_property): /soc/otg@c0900100:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3107.4-32: Warning (power_domains_property): /soc/ehci@c0900100:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3136.4-32: Warning (power_domains_property): /soc/otg1@c0980100:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3175.4-32: Warning (power_domains_property): /soc/ehci1@c0980100:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3208.4-32: Warning (power_domains_property): /soc/usb3hub@0:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3225.4-32: Warning (power_domains_property): /soc/usb3@0:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3267.4-32: Warning (power_domains_property): /soc/sdh@d4280000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3306.4-32: Warning (power_domains_property): /soc/sdh@d4280800:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3339.4-32: Warning (power_domains_property): /soc/sdh@d4281000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3364.4-32: Warning (power_domains_property): /soc/pcie@ca000000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3401.4-32: Warning (power_domains_property): /soc/pcie@ca400000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3440.4-32: Warning (power_domains_property): /soc/pcie@ca800000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3488.4-32: Warning (power_domains_property): /soc/spi@d420c000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3746.4-32: Warning (power_domains_property): /soc/linlon-v5@c0500000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3777.4-32: Warning (power_domains_property): /soc/jpu@c02f8000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3808.4-32: Warning (power_domains_property): /soc/imggpu@cac00000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3908.4-32: Warning (power_domains_property): /soc/port@c0440000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3933.4-32: Warning (power_domains_property): /soc/spacemit_snd_sspa@C0883900:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3949.4-32: Warning (power_domains_property): /soc/hdmi@C0400500:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3985.4-32: Warning (power_domains_property): /soc/port@c0340000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4224.4-32: Warning (power_domains_property): /soc/ccic@d420a000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4243.4-32: Warning (power_domains_property): /soc/ccic@d420a800:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4262.4-32: Warning (power_domains_property): /soc/ccic@d4206000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4279.4-32: Warning (power_domains_property): /soc/isp@C0230000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4296.4-32: Warning (power_domains_property): /soc/vi@C0230000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4313.4-32: Warning (power_domains_property): /soc/cpp@C02f0000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4352.3-31: Warning (power_domains_property): /i2s0@d4026000:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4370.3-31: Warning (power_domains_property): /i2s1@d4026800:power-domains: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3793.4-24: Warning (pwms_property): /soc/lcd_backlight:pwms: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4558.3-24: Warning (pwms_property): /pwm-fan:pwms: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:816.4-25: Warning (resets_property): /soc/pinctrl@d401e000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1650.4-25: Warning (resets_property): /soc/serial@d4017000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1673.4-25: Warning (resets_property): /soc/uart@d4017100:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1692.4-25: Warning (resets_property): /soc/uart@d4017200:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1709.4-25: Warning (resets_property): /soc/uart@d4017300:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1726.4-25: Warning (resets_property): /soc/uart@d4017400:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1743.4-25: Warning (resets_property): /soc/uart@d4017500:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1760.4-25: Warning (resets_property): /soc/uart@d4017600:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1777.4-25: Warning (resets_property): /soc/uart@d4017700:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1794.4-25: Warning (resets_property): /soc/uart@d4017800:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1808.4-25: Warning (resets_property): /soc/r_uart1@c088d000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1828.4-25: Warning (resets_property): /soc/mailbox@d4013400:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1842.4-25: Warning (resets_property): /soc/rcpu_rproc@0:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1860.4-25: Warning (resets_property): /soc/pdma@d4000000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1896.4-25: Warning (resets_property): /soc/spi@d4026000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1916.4-25: Warning (resets_property): /soc/spi@d4026800:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1935.4-25: Warning (resets_property): /soc/spi@f0613000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1956.4-25: Warning (resets_property): /soc/spi@d401c000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1973.4-25: Warning (resets_property): /soc/i2c@d4010800:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:1999.4-25: Warning (resets_property): /soc/i2c@d4011000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2022.4-25: Warning (resets_property): /soc/i2c@d4012000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2080.4-25: Warning (resets_property): /soc/i2c@f0614000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2105.4-25: Warning (resets_property): /soc/i2c@d4012800:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2130.4-25: Warning (resets_property): /soc/i2c@d4013800:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2153.4-25: Warning (resets_property): /soc/i2c@d4018800:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2193.4-25: Warning (resets_property): /soc/i2c@d401d000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2218.4-25: Warning (resets_property): /soc/i2c@d401d800:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2451.4-25: Warning (resets_property): /soc/ri2c@c0887000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2471.4-25: Warning (resets_property): /soc/pwm@d401a000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2481.4-25: Warning (resets_property): /soc/pwm@d401a400:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2491.4-25: Warning (resets_property): /soc/pwm@d401a800:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2501.4-25: Warning (resets_property): /soc/pwm@d401ac00:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2511.4-25: Warning (resets_property): /soc/pwm@d401b000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2521.4-25: Warning (resets_property): /soc/pwm@d401b400:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2531.4-25: Warning (resets_property): /soc/pwm@d401b800:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2541.4-25: Warning (resets_property): /soc/pwm@d401bc00:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2551.4-25: Warning (resets_property): /soc/pwm@d4020000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2561.4-25: Warning (resets_property): /soc/pwm@d4020400:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2571.4-25: Warning (resets_property): /soc/pwm@d4020800:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2581.4-25: Warning (resets_property): /soc/pwm@d4020c00:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2591.4-25: Warning (resets_property): /soc/pwm@d4021000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2601.4-25: Warning (resets_property): /soc/pwm@d4021400:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2611.4-25: Warning (resets_property): /soc/pwm@d4021800:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2624.4-25: Warning (resets_property): /soc/pwm@d4021c00:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2634.4-25: Warning (resets_property): /soc/pwm@d4022000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2644.4-25: Warning (resets_property): /soc/pwm@d4022400:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2654.4-25: Warning (resets_property): /soc/pwm@d4022800:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2664.4-25: Warning (resets_property): /soc/pwm@d4022c00:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2674.4-25: Warning (resets_property): /soc/pwm@c0888100:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2685.4-25: Warning (resets_property): /soc/pwm@c0888200:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2696.4-25: Warning (resets_property): /soc/pwm@c0888300:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2710.4-25: Warning (resets_property): /soc/pwm@c0888400:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2721.4-25: Warning (resets_property): /soc/pwm@c0888500:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2732.4-25: Warning (resets_property): /soc/pwm@c0888600:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2743.4-25: Warning (resets_property): /soc/pwm@c0888700:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2754.4-25: Warning (resets_property): /soc/pwm@c0888800:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2765.4-25: Warning (resets_property): /soc/pwm@c0888900:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2776.4-25: Warning (resets_property): /soc/pwm@c0888a00:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2788.4-25: Warning (resets_property): /soc/irc-rx@d4017f00:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2797.4-25: Warning (resets_property): /soc/irc-rx@c088e000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2817.4-25: Warning (resets_property): /soc/timer@d4014000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2838.4-25: Warning (resets_property): /soc/timer@d4016000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2853.4-25: Warning (resets_property): /soc/watchdog@d4080000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2874.4-25: Warning (resets_property): /soc/rtc@d4010000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2885.4-25: Warning (resets_property): /soc/fdcan@d4028000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2897.4-25: Warning (resets_property): /soc/fdcan@c0870000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2941.4-25: Warning (resets_property): /soc/ethernet@cac80000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2995.4-25: Warning (resets_property): /soc/ethernet@cac81000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3067.4-25: Warning (resets_property): /soc/otg@c0900100:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3088.4-25: Warning (resets_property): /soc/udc@c0900100:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3105.4-25: Warning (resets_property): /soc/ehci@c0900100:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3135.4-25: Warning (resets_property): /soc/otg1@c0980100:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3156.4-25: Warning (resets_property): /soc/udc1@c0980100:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3173.4-25: Warning (resets_property): /soc/ehci1@c0980100:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3190.4-25: Warning (resets_property): /soc/phy@c0b10000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3221.4-25: Warning (resets_property): /soc/usb3@0:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3261.4-35: Warning (resets_property): /soc/sdh@d4280000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3261.4-35: Warning (resets_property): /soc/sdh@d4280000:resets: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3300.4-35: Warning (resets_property): /soc/sdh@d4280800:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3300.4-35: Warning (resets_property): /soc/sdh@d4280800:resets: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3333.4-35: Warning (resets_property): /soc/sdh@d4281000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3333.4-35: Warning (resets_property): /soc/sdh@d4281000:resets: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3362.4-25: Warning (resets_property): /soc/pcie@ca000000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3399.4-25: Warning (resets_property): /soc/pcie@ca400000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3438.4-25: Warning (resets_property): /soc/pcie@ca800000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3482.4-35: Warning (resets_property): /soc/spi@d420c000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3482.4-35: Warning (resets_property): /soc/spi@d420c000:resets: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3519.4-25: Warning (resets_property): /soc/thermal@d4018000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3747.4-25: Warning (resets_property): /soc/linlon-v5@c0500000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3760.4-25: Warning (resets_property): /soc/v2d@c0100000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3778.4-65: Warning (resets_property): /soc/jpu@c02f8000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3778.4-65: Warning (resets_property): /soc/jpu@c02f8000:resets: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3778.4-65: Warning (resets_property): /soc/jpu@c02f8000:resets: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3778.4-65: Warning (resets_property): /soc/jpu@c02f8000:resets: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3778.4-65: Warning (resets_property): /soc/jpu@c02f8000:resets: cell 8 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3807.4-25: Warning (resets_property): /soc/imggpu@cac00000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3821.4-25: Warning (resets_property): /soc/spacemit_crypto_engine@d8600000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3839.5-26: Warning (resets_property): /soc/fuse@f0702800/efuse_bank@7:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3906.4-25: Warning (resets_property): /soc/port@c0440000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3930.4-25: Warning (resets_property): /soc/spacemit_snd_sspa@C0883900:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3947.4-25: Warning (resets_property): /soc/hdmi@C0400500:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3983.4-55: Warning (resets_property): /soc/port@c0340000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3983.4-55: Warning (resets_property): /soc/port@c0340000:resets: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3983.4-55: Warning (resets_property): /soc/port@c0340000:resets: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3983.4-55: Warning (resets_property): /soc/port@c0340000:resets: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4170.4-25: Warning (resets_property): /soc/csiphy@d420a000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4185.4-25: Warning (resets_property): /soc/csiphy@d420a800:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4199.4-25: Warning (resets_property): /soc/csiphy@d4206000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4219.4-65: Warning (resets_property): /soc/ccic@d420a000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4219.4-65: Warning (resets_property): /soc/ccic@d420a000:resets: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4219.4-65: Warning (resets_property): /soc/ccic@d420a000:resets: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4219.4-65: Warning (resets_property): /soc/ccic@d420a000:resets: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4219.4-65: Warning (resets_property): /soc/ccic@d420a000:resets: cell 8 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4238.4-65: Warning (resets_property): /soc/ccic@d420a800:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4238.4-65: Warning (resets_property): /soc/ccic@d420a800:resets: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4238.4-65: Warning (resets_property): /soc/ccic@d420a800:resets: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4238.4-65: Warning (resets_property): /soc/ccic@d420a800:resets: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4238.4-65: Warning (resets_property): /soc/ccic@d420a800:resets: cell 8 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4257.4-65: Warning (resets_property): /soc/ccic@d4206000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4257.4-65: Warning (resets_property): /soc/ccic@d4206000:resets: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4257.4-65: Warning (resets_property): /soc/ccic@d4206000:resets: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4257.4-65: Warning (resets_property): /soc/ccic@d4206000:resets: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4257.4-65: Warning (resets_property): /soc/ccic@d4206000:resets: cell 8 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4274.4-55: Warning (resets_property): /soc/isp@C0230000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4274.4-55: Warning (resets_property): /soc/isp@C0230000:resets: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4274.4-55: Warning (resets_property): /soc/isp@C0230000:resets: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4274.4-55: Warning (resets_property): /soc/isp@C0230000:resets: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4291.4-55: Warning (resets_property): /soc/vi@C0230000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4291.4-55: Warning (resets_property): /soc/vi@C0230000:resets: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4291.4-55: Warning (resets_property): /soc/vi@C0230000:resets: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4291.4-55: Warning (resets_property): /soc/vi@C0230000:resets: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4308.4-55: Warning (resets_property): /soc/cpp@C02f0000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4308.4-55: Warning (resets_property): /soc/cpp@C02f0000:resets: cell 2 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4308.4-55: Warning (resets_property): /soc/cpp@C02f0000:resets: cell 4 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4308.4-55: Warning (resets_property): /soc/cpp@C02f0000:resets: cell 6 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4348.3-24: Warning (resets_property): /i2s0@d4026000:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4366.3-24: Warning (resets_property): /i2s1@d4026800:resets: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4399.4-23: Warning (sound_dai_property): /snd-card@0/simple-audio-card,plat:sound-dai: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4403.4-23: Warning (sound_dai_property): /snd-card@0/simple-audio-card,codec:sound-dai: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4407.4-23: Warning (sound_dai_property): /snd-card@0/simple-audio-card,cpu:sound-dai: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4422.4-23: Warning (sound_dai_property): /snd-card@1/simple-audio-card,cpu:sound-dai: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4426.4-23: Warning (sound_dai_property): /snd-card@1/simple-audio-card,plat:sound-dai: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4430.4-23: Warning (sound_dai_property): /snd-card@1/simple-audio-card,codec:sound-dai: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3532.5-35: Warning (thermal_sensors_property): /soc/thermal-zones/cluster0_thermal:thermal-sensors: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3598.5-35: Warning (thermal_sensors_property): /soc/thermal-zones/cluster1_thermal:thermal-sensors: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3637.5-35: Warning (thermal_sensors_property): /soc/thermal-zones/top_thermal:thermal-sensors: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3697.5-35: Warning (thermal_sensors_property): /soc/thermal-zones/gpu_thermal:thermal-sensors: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2063.5-37: Warning (gpios_property): /soc/i2c@d4012000/es8326@19:spk-ctl-gpio: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2171.5-36: Warning (gpios_property): /soc/i2c@d4018800/gt9xx@5d:reset-gpios: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2172.5-34: Warning (gpios_property): /soc/i2c@d4018800/gt9xx@5d:irq-gpios: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:2956.4-39: Warning (gpios_property): /soc/ethernet@cac80000:emac,reset-gpio: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3010.4-39: Warning (gpios_property): /soc/ethernet@cac81000:emac,reset-gpio: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3077.4-34: Warning (gpios_property): /soc/otg@c0900100:vbus-gpios: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3145.4-34: Warning (gpios_property): /soc/otg1@c0980100:vbus-gpios: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3212.4-48: Warning (gpios_property): /soc/usb3hub@0:hub-gpios: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3212.4-48: Warning (gpios_property): /soc/usb3hub@0:hub-gpios: cell 3 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3213.4-34: Warning (gpios_property): /soc/usb3hub@0:vbus-gpios: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:3276.4-32: Warning (gpios_property): /soc/sdh@d4280000:cd-gpios: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4114.4-34: Warning (gpios_property): /soc/cam_sensor@0:pwdn-gpios: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4115.4-35: Warning (gpios_property): /soc/cam_sensor@0:reset-gpios: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4150.4-34: Warning (gpios_property): /soc/cam_sensor@2:pwdn-gpios: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4151.4-35: Warning (gpios_property): /soc/cam_sensor@2:reset-gpios: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4526.3-32: Warning (gpios_property): /rf-pwrseq:pwr-gpios: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4531.4-35: Warning (gpios_property): /rf-pwrseq/wlan-pwrseq:regon-gpios: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4540.4-35: Warning (gpios_property): /rf-pwrseq/bt-pwrseq:reset-gpios: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:4549.4-29: Warning (gpios_property): /leds/led1:gpios: cell 0 is not a phandle reference
+k1-x_deb1_cloud_v.dts:60.25-65.6: Warning (interrupt_provider): /cpus/cpu@0/interrupt-controller: Missing #address-cells in interrupt provider
+k1-x_deb1_cloud_v.dts:95.25-100.6: Warning (interrupt_provider): /cpus/cpu@1/interrupt-controller: Missing #address-cells in interrupt provider
+k1-x_deb1_cloud_v.dts:130.25-135.6: Warning (interrupt_provider): /cpus/cpu@2/interrupt-controller: Missing #address-cells in interrupt provider
+k1-x_deb1_cloud_v.dts:165.25-170.6: Warning (interrupt_provider): /cpus/cpu@3/interrupt-controller: Missing #address-cells in interrupt provider
+k1-x_deb1_cloud_v.dts:199.25-204.6: Warning (interrupt_provider): /cpus/cpu@4/interrupt-controller: Missing #address-cells in interrupt provider
+k1-x_deb1_cloud_v.dts:233.25-238.6: Warning (interrupt_provider): /cpus/cpu@5/interrupt-controller: Missing #address-cells in interrupt provider
+k1-x_deb1_cloud_v.dts:267.25-272.6: Warning (interrupt_provider): /cpus/cpu@6/interrupt-controller: Missing #address-cells in interrupt provider
+k1-x_deb1_cloud_v.dts:301.25-306.6: Warning (interrupt_provider): /cpus/cpu@7/interrupt-controller: Missing #address-cells in interrupt provider
+k1-x_deb1_cloud_v.dts:793.33-803.5: Warning (interrupt_provider): /soc/interrupt-controller@e0000000: Missing #address-cells in interrupt provider
+k1-x_deb1_cloud_v.dts:2902.17-2931.5: Warning (interrupt_provider): /soc/gpio@d4019000: Missing #address-cells in interrupt provider
+k1-x_deb1_cloud_v.dts:3956.9-3965.6: Warning (graph_child_address): /soc/hdmi@C0400500/port: graph node has single child node 'endpoint@0', #address-cells/#size-cells are not necessary
+k1-x_deb1_cloud_v.dts:4025.12-4035.7: Warning (graph_child_address): /soc/dsi2@d421a800/ports/port@0: graph node has single child node 'endpoint@0', #address-cells/#size-cells are not necessary
+k1-x_deb1_cloud_v.dts:4083.10-4095.6: Warning (graph_child_address): /soc/wb0/ports: graph node has single child node 'port@0', #address-cells/#size-cells are not necessary
