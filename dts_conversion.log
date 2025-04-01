@@ -590,9 +590,6 @@ k1-x_deb1_cloud_v.dts:2956.4-39: Warning (gpios_property): /soc/ethernet@cac8000
 k1-x_deb1_cloud_v.dts:3010.4-39: Warning (gpios_property): /soc/ethernet@cac81000:emac,reset-gpio: cell 0 is not a phandle reference
 k1-x_deb1_cloud_v.dts:3077.4-34: Warning (gpios_property): /soc/otg@c0900100:vbus-gpios: cell 0 is not a phandle reference
 k1-x_deb1_cloud_v.dts:3145.4-34: Warning (gpios_property): /soc/otg1@c0980100:vbus-gpios: cell 0 is not a phandle reference
-k1-x_deb1_cloud_v.dts:3212.4-48: Warning (gpios_property): /soc/usb3hub@0:hub-gpios: cell 0 is not a phandle reference
-k1-x_deb1_cloud_v.dts:3212.4-48: Warning (gpios_property): /soc/usb3hub@0:hub-gpios: cell 3 is not a phandle reference
-k1-x_deb1_cloud_v.dts:3213.4-34: Warning (gpios_property): /soc/usb3hub@0:vbus-gpios: cell 0 is not a phandle reference
 k1-x_deb1_cloud_v.dts:3276.4-32: Warning (gpios_property): /soc/sdh@d4280000:cd-gpios: cell 0 is not a phandle reference
 k1-x_deb1_cloud_v.dts:4114.4-34: Warning (gpios_property): /soc/cam_sensor@0:pwdn-gpios: cell 0 is not a phandle reference
 k1-x_deb1_cloud_v.dts:4115.4-35: Warning (gpios_property): /soc/cam_sensor@0:reset-gpios: cell 0 is not a phandle reference
@@ -611,7 +608,7 @@ k1-x_deb1_cloud_v.dts:233.25-238.6: Warning (interrupt_provider): /cpus/cpu@5/in
 k1-x_deb1_cloud_v.dts:267.25-272.6: Warning (interrupt_provider): /cpus/cpu@6/interrupt-controller: Missing #address-cells in interrupt provider
 k1-x_deb1_cloud_v.dts:301.25-306.6: Warning (interrupt_provider): /cpus/cpu@7/interrupt-controller: Missing #address-cells in interrupt provider
 k1-x_deb1_cloud_v.dts:793.33-803.5: Warning (interrupt_provider): /soc/interrupt-controller@e0000000: Missing #address-cells in interrupt provider
-k1-x_deb1_cloud_v.dts:2902.17-2931.5: Warning (interrupt_provider): /soc/gpio@d4019000: Missing #address-cells in interrupt provider
+k1-x_deb1_cloud_v.dts:2902.31-2931.5: Warning (interrupt_provider): /soc/gpio@d4019000: Missing #address-cells in interrupt provider
 k1-x_deb1_cloud_v.dts:3956.9-3965.6: Warning (graph_child_address): /soc/hdmi@C0400500/port: graph node has single child node 'endpoint@0', #address-cells/#size-cells are not necessary
 k1-x_deb1_cloud_v.dts:4025.12-4035.7: Warning (graph_child_address): /soc/dsi2@d421a800/ports/port@0: graph node has single child node 'endpoint@0', #address-cells/#size-cells are not necessary
 k1-x_deb1_cloud_v.dts:4083.10-4095.6: Warning (graph_child_address): /soc/wb0/ports: graph node has single child node 'port@0', #address-cells/#size-cells are not necessary

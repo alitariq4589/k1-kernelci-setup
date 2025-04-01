@@ -2899,7 +2899,7 @@
 			status = "disabled";
 		};
 
-		gpio@d4019000 {
+		gpiod4019000: gpio@d4019000 {
 			compatible = "spacemit,k1x-gpio";
 			reg = <0x00 0xd4019000 0x00 0x800>;
 			gpio-controller;
@@ -3209,8 +3209,8 @@
 			clk,pm-runtime,no-sleep;
 			cpuidle,pm-runtime,sleep;
 			status = "okay";
-			hub-gpios = <0x2f 0x7b 0x00 0x2f 0x7c 0x00>;
-			vbus-gpios = <0x2f 0x61 0x00>;
+			hub-gpios = <&gpiod4019000 0x7b 0x00 &gpiod4019000 0x7c 0x00>;
+			vbus-gpios = <&gpiod4019000 0x61 0x00>;
 		};
 
 		usb3@0 {
