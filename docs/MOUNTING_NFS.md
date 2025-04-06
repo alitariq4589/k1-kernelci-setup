@@ -1,0 +1,90 @@
+# Mounting `rootfs` through NFS
+
+This document mentions how you can mount rootfs through NFS. You will need Bianbu's [buildrooot](https://gitee.com/bianbu-linux/buildroot), [linux6.6](https://gitee.com/bianbu-linux/linux-6.6) (though it may change in future as newer kernel is added), [opensbi](https://gitee.com/bianbu-linux/opensbi), [u-boot](https://gitee.com/bianbu-linux/uboot-2022.10), [scripts](https://gitee.com/bianbu-linux/scripts) and [buildroot-ext](https://gitee.com/bianbu-linux/buildroot-ext) repositories from gitee.
+
+This document assumes that you already have a working u-boot in the board which can boot (in either SD card or emmc). For adding changes to the u-boot, refer to the `u-boot` directory and copy the files in it to the u-boot.
+
+# NFS directory set up
+
+This repository and documentation assumes that you have rootfs and bootfs directories already present in the `/nfsroot` directory of the computer and nfs server is already set up with `/nfsroot/rootfs` and `/nfsroot/bootfs` shared in the `/etc/exports` file.
+
+_NOTE: Only NFS version 3 is supported by u-boot for file transfering through nfs. If for some reason the nfs is not working for transferring the file, use `tftpboot` command to transfer the files. Refer to the [u-boot-env.env](/u-boot-env.env) for list of commands._
+
+The bootfs directory in the `/nfsroot` contains the kernel image (or uImage in our case. Because u-boot requires uImage), the device tree blob (dtb) and initramfs image. At minimum, it should have the files as mentioned in the following directory tree.
+
+```
+bootfs
+├── initramfs-generic.img
+├── k1-x_deb1_cloud_v.dtb
+└── uImage-bianbu
+```
+
+
+All of the above required files are available in [u-boot](/u-boot) directory.
+
+
+
+
+The first stage bootloader (FSBL) for kernelCI setup is the u-boot SPL (secondary program loader) which remains in the emmc and polls for u-boot proper from the UART Y-modem. It is built separately. It places the u-boot proper at the certain address in the volatile memory and then jumps to it, from there you can use the u-boot commands described in the [u-boot-env.env](/u-boot-env.env) to load the kernel through NFS.
+
+The `rootfs.ext2` is a root file system image which is present in [images](/images/) directory. You will just have to make a copy of this image and issue following command to mount it to /nfsroot/rootfs directory.
+
+```
+sudo mount -o loop rootfs.ext2 /nfsroot/rootfs
+```
+
+## Building from source (optional)
+
+In case you want to do everything yourself and dont want to use the images provided in the [images](/images/), you can follow the procedure below.
+
+### Building rootfs from source
+
+The buildroot is used for generating the rootfs as well as initramfs. You will have to change the `BR2_EXTERNAL_Bianbu_PATH` variable to where your builroot-ext repository is present. If this variable is not set, many paths will point to the relative path from `/` which will cause errors in the build (such as permission denied or no such file or directory).
+
+There should be a bsp-src directory in one parent directory to the buildroot repository in which you will have to clone [opensbi](https://gitee.com/bianbu-linux/opensbi), [linux6.6](https://gitee.com/bianbu-linux/linux-6.6) and [u-boot](https://gitee.com/bianbu-linux/uboot-2022.10). In the same directory, you will have to clone [scripts](https://gitee.com/bianbu-linux/scripts) repository. After that you may have to edit the .config file to change the linux kernel directory path (it is linux-6.6 in our case).
+
+Copy the the contents of `config` and `board` from buildroot-ext to buildroot repository
+
+Once all of the above is done, use the following command to start building the buildroot.
+
+```
+make k1_defconfig
+make ARCH=riscv64 -j$(nproc)
+```
+
+This will build the rootfs and initramfs in the `buildroot/output/images` directory.
+
+### Building the dtb
+
+NOTE: The generated dtb file is generated from the [k1-x_deb1_cloud_v.dts](/k1-x_deb1_cloud_v.dts). It will throw some warnings and it is because the dts file was recovered from an already available dts and then some `phandle` were corrected and then it was used to generate dtb file. You can use following command to generate the dtb file.
+
+```
+dtc -O dtb -o /nfsroot/bootfs/k1-x_deb1_cloud_v.dtb k1-x_deb1_cloud_v.dts
+```
+
+### Building Linux kernel
+
+The linux kernel is already built as part of the buildroot. But for this documentation use case, a separate linux kernel in uImage format was needed for loading on to the RAM separately. So I built the linux kernel separately.
+
+Before building the linux kernel (u-boot or opensbi) from source, make sure `CROSS_COMPILE` variable is already set with the path to the spacemit toolchain. You can get the toolchain from this [link](http://archive.spacemit.com/toolchain/).
+
+Once you have the toolchain, it is a good practice to set the `CROSS_COMPILE` variable in the `bashrc` as follows:
+
+```
+export CROSS_COMPILE="/home/user0/custom_installed/spacemit-toolchain-linux-glibc-x86_64-v1.0.5/bin/riscv64-unknown-linux-gnu-"
+```
+
+The [linux6.6](https://gitee.com/bianbu-linux/linux-6.6) repository is used to build the kernel. Clone the repository and navigate inside. Then execute following commands to build the kernel.
+
+```
+make ARCH=riscv k1_defconfig
+make ARCH=riscv -j$(nproc)
+```
+
+This will generate the raw `Image` kernel output file in `arch/riscv/boot`. Now you can convert this to u-boot supported uImage using following command.
+
+```
+mkimage -A riscv -O linux -T kernel -C none -a 0x2000000 -e 0x2000000 -n "Linux Kernel" -d Image uImage
+```
+
+_NOTE: Be careful with the load and execution address. It is set in the kernel menuconfig. Here it is set to be 0x2000000 which is default (unless you explicitly changed it in the kernel settings)_

@@ -1,0 +1,55 @@
+/dts-v1/;
+
+/ {
+        description = "U-boot FIT image for k1x";
+        #address-cells = <2>;
+        fit,fdt-list = "of-list";
+
+        images {
+                uboot {
+                        description = "U-Boot";
+                        type = "standalone";
+                        os = "U-Boot";
+                        arch = "riscv";
+                        compression = "none";
+                        load = <0x0 0x00200000>;
+                        data = /incbin/("./u-boot-nodtb.bin");
+                        hash-1 {
+				algo = "crc32";
+			};
+                };
+
+                opensbi {
+                        description = "OpenSBI fw_dynamic Firmware";
+                        type = "firmware";
+                        os = "opensbi";
+                        arch = "riscv";
+                        compression = "none";
+                        load = <0x0 0x0>;
+                        entry = <0x0 0x0>;
+                        data = /incbin/("./fw_dynamic.bin");
+                        hash-1 {
+				algo = "crc32";
+			};
+                };
+                fdt_14 {
+                        description = "k1-x_deb1_cloud_v";
+                        type = "flat_dt";
+                        compression = "none";
+                        data = /incbin/("./k1-x_deb1_cloud_v.dtb");
+                        hash-1 {
+				algo = "crc32";
+			};
+                };
+        };
+
+        configurations {
+                default = "conf_14";
+                conf_14 {
+                        description = "k1-x_deb1";
+                        firmware = "opensbi";
+                        loadables = "uboot";
+                        fdt = "fdt_14";
+                };
+        };
+};
