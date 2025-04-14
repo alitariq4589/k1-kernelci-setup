@@ -32,15 +32,15 @@
 				algo = "crc32";
 			};
                 };
-                fdt_14 {
-                        description = "k1-x_deb1_cloud_v";
-                        type = "flat_dt";
-                        compression = "none";
-                        data = /incbin/("./k1-x_deb1_cloud_v.dtb");
-                        hash-1 {
+                fdt_2 {
+			description = "k1-x_deb1";
+			type = "flat_dt";
+			compression = "none";
+			data = /incbin/("../dtb/k1-x_deb1.dtb");
+			hash-1 {
 				algo = "crc32";
 			};
-                };
+		};
         };
 
         configurations {
