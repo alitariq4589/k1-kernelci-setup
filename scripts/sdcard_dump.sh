@@ -10,10 +10,10 @@ if [ -z "${SD_CARD_PATH+x}" ]; then
 fi
 
 timestamp=$(date '+%d-%m-%Y_%H_%M_%S')
-filename="../dumps/sdcard_dump_$(timestamp)"
+filename="../dumps/sdcard_dump_$timestamp"
 
 sudo dd if="$SD_CARD_PATH" bs=512 count=8191  | hexdump -C > "$filename".log
 
 
 
-echo "[INFO]: The dump has been stored in $(readlink -r $filename)"
+echo "[INFO]: The dump has been stored in $(readlink -f $filename)"
