@@ -9,6 +9,11 @@ if [ -z "${SD_CARD_PATH+x}" ]; then
   exit 1
 fi
 
-sudo dd if="$SD_CARD_PATH" bs=512 count=8191  | hexdump -C > ../dumps/modified_OS_dump_gparted_partition_flashed.log
+timestamp=$(date '+%d-%m-%Y_%H_%M_%S')
+filename="../dumps/sdcard_dump_$(timestamp)"
 
-echo "[INFO]: The dump has been stored in $(readlink -r ../dumps/modified_OS_dump_gparted_partition_flashed.log)"
+sudo dd if="$SD_CARD_PATH" bs=512 count=8191  | hexdump -C > "$filename".log
+
+
+
+echo "[INFO]: The dump has been stored in $(readlink -r $filename)"
