@@ -15,9 +15,6 @@ unset OPENSBI_PATH
 
 UBOOT_PATH="../../bianbu/uboot-2022.10"
 
-rm ../firmware/u-boot-opensbi.itb
-rm ../firmware/u-boot-nodtb.bin
-rm ../firmware/fw_dynamic.bin
 
 cp $UBOOT_PATH/u-boot-nodtb.bin ../firmware/
 cp /home/user0/.WORKDIR/kernelci_work/bianbu/opensbi/build/platform/generic/firmware/fw_dynamic.bin ../firmware/
